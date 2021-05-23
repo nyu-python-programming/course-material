@@ -76,7 +76,7 @@ on the side of formality.
 #### I\'m trying to send an attachment in an email or chat, but it isn\'t working. What do I do?
 
 Upload the attachment to a public web server, such as
-[i6](Transfer_files_to_the_i6_web_server), your own web
+[i6](https://knowledge.kitchen/Transfer_files_to_the_i6_web_server), your own web
 server, or a cloud hosting service such as
 [Box.com](https://nyu.box.com/), Dropbox, or Google Drive, and just send
 us the link to it.
@@ -105,7 +105,7 @@ there is no such information on the syllabus, speak with the professor.
 
 Why would you do this? Sending a screenshot is proof of nothing except,
 perhaps, a lack of critical thinking and lack of ability in image
-editing software like [Photoshop](:Category:Photoshop).
+editing software like [Photoshop](https://knowledge.kitchen/:Category:Photoshop).
 
 ### Grading
 

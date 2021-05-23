@@ -1,14 +1,14 @@
 ## Set up file extensions
 
 By default, Windows and Mac both hide [file
-extensions](Basic_computer_concepts#File_extensions), such as
+extensions](https://knowledge.kitchen/Basic_computer_concepts#File_extensions), such as
 the \'.png\' that you need to put at the end of all your Portable
 Network Graphics image filenames, the \'.zip\' that you need to put at
 the end of all your [compressed
-files](Basic_computer_concepts#Compressed_files), the \'.py\'
+files](https://knowledge.kitchen/Basic_computer_concepts#Compressed_files), the \'.py\'
 that should be at the end of your Python source code files, etc.
 
-[Windows and Mac](Popular_operating_systems_and_trends) also
+[Windows and Mac](https://knowledge.kitchen/Popular_operating_systems_and_trends) also
 both tend to often launch the wrong application by default when you
 double-click a file.
 

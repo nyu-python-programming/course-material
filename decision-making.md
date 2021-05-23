@@ -1,38 +1,21 @@
 # Decision-making
 
-Decision-making in programs, sometimes called \'selection\',
-\'branching\', or \'conditionals\', is allowing a program decide
-semi-autonomously what to do in a given situation.
+Decision-making in programs, sometimes called \'selection\', \'branching\', or \'conditionals\', is allowing a program decide semi-autonomously what to do in a given situation.
 
-High-level programming languages typically rely on if/elseif/else
-statements to allow a program to evaluate Boolean conditions and execute
-different blocks of code depending upon the outcome of those conditions.
+High-level programming languages typically rely on if/elseif/else statements to allow a program to evaluate Boolean conditions and execute different blocks of code depending upon the outcome of those conditions.
 
 ## Python examples
 
 ### Personal fruit preference validator
 
-The following program shows a simple usage of a conditional if/elif/else
-statement. In this example, we are asking the user to input their
-favorite fruit. The program then responds differently depending upon
-what was entered. Here is an overview of what the program does:
+The following program shows a simple usage of a conditional if/elif/else statement. In this example, we are asking the user to input their favorite fruit. The program then responds differently depending upon what was entered. Here is an overview of what the program does:
 
-- It first checks to see whether the user entered the word, "orange".
-  If the user did enter that word, the program outputs a message and
-  skips to the end of the if/elif/else statement.
-- If the user did not enter the word, "orange", the program checks to
-  see if the user entered the word, "apple". If the user did enter
-  that word, the program outputs a message and skips to the end of the
-  if/elif/else statement.
-- If the user did not enter the word "apple", the program checks to
-  see if the user entered the word, "strawberry". If the user did
-  enter that word, the program outputs a message and skips to the end
-  of the if/elif/else statement.
-- If the user did not enter the word, "strawberry", the program
-  outputs a default message, "never heard of it", and then continues
-  on to run the code underneath the if/elif/else statement.
+- It first checks to see whether the user entered the word, "orange". If the user did enter that word, the program outputs a message and skips to the end of the if/elif/else statement.
+- If the user did not enter the word, "orange", the program checks to see if the user entered the word, "apple". If the user did enter that word, the program outputs a message and skips to the end of the if/elif/else statement.
+- If the user did not enter the word "apple", the program checks to see if the user entered the word, "strawberry". If the user did enter that word, the program outputs a message and skips to the end of the if/elif/else statement.
+- If the user did not enter the word, "strawberry", the program outputs a default message, "never heard of it", and then continues on to run the code underneath the if/elif/else statement.
 
-```
+```python
 #
 #filename: fruit.py
 #author: yours truly
@@ -65,8 +48,7 @@ precipitation.
 
 #### Simple version
 
-```
-
+```python
 #this will be on the exam!!!!
 #not exactly, but in spirit
 
@@ -106,7 +88,7 @@ else:
 Allows temperature to be entered as Celsius or Farenheit. Farenheit is
 the default, in case units are not entered.
 
-```
+```python
 #this will be on the exam!!!!
 #not exactly, but in spirit
 
@@ -133,7 +115,6 @@ if units == "C":
 #winter jacket - precipitation: clear, none; temp <=32F
 #no jacket - precipitation: clear, none; temp: 60F - ?
 
-
 if (precipitation == "rain" or precipitation == "drizzle") and (temp >=5 and temp  <= 60) :
     print("Wear a rain jacket, please!")
 
@@ -157,13 +138,13 @@ else:
 ### Example program with nested branches
 
 This program, which assumes an understanding of
-[functions](Functions), is an example of a job application
+[functions](./functions.md), is an example of a job application
 self-evaluation tool. It asks the user to enter their desired job, and
 then runs through a series of questions to determine how suited the
 candidate is for that job. We have only designed the code for the \"fry
 cook\" job.
 
-```
+```python
 def doCashierStuff():
     #this is where you would put cashier questions
     print("Welcome to the cashier application center")
@@ -234,8 +215,6 @@ def doFryCookStuff():
     if isValidCandidate:
         print("Great, thanks for speaking with us... we'll get back to you shortly about this job.")
 
-
-
 #start
 #output welcome message
 print("Welcome to the job self-evaluation tool")
@@ -263,7 +242,7 @@ else:
 
 #### Code
 
-```
+```java
 package edu.nyu.cs.fb1258;
 
 import java.util.Scanner;
@@ -303,11 +282,11 @@ public class BooleanLogicExample {
 #### Flow chart
 
 Flow chart of the same program\...
-![If/else if/else flow](./images/boolean-logic/If_elseif_else_flow_chart.png "fig:If_elseif_else_flow_chart.png")
+![If/else if/else flow](./images/boolean-logic/If_elseif_else_flow_chart.png)
 
 ### Example of switch/case statement
 
-```
+```java
 /**
  * This program is an example of the  switch/case statement, and how you can use it to select and branch  the flow of your code
  * @author Foo Barstein
@@ -370,7 +349,7 @@ public class SwitchCaseExample {
 
 ### Boolean logic practice examples
 
-```
+```java
 /**
  * A boolean logic warm-up.
  * @author Foo Barstein
@@ -400,7 +379,7 @@ public class BooleanLogicExample {
 }
 ```
 
-```
+```java
 /**
 * Of course literals and variables are interchangeable as far as Boolean logic is concerned.  The operators work fine either way.
 *
@@ -428,7 +407,7 @@ public class BooleanComparisonExample {
 }
 ```
 
-```
+```java
 package edu.nyu.cs.fb1258;
 
 /**
@@ -473,7 +452,7 @@ public class BooleanComparisonOperatorExample {
 }
 ```
 
-```
+```java
 package edu.nyu.cs.fb1258;
 
 import java.util.Scanner;
@@ -520,7 +499,7 @@ public class ExampleOfBooleanOperators {
 
 ### Example of using the modulus operator
 
-```
+```java
 /**
  * This program shows an example of using the  modulus operator.
  * @author Foo Barstein

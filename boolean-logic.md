@@ -36,7 +36,8 @@ they are used in regular English speech.
 
 The AND logic operator is used to evaluate two Boolean values according
 to the following truth table:
-![AND logic](./images/boolean-logic/And_logic_truth_table.png "fig:And_logic_truth_table.png")
+
+![AND logic](./images/boolean-logic/And_logic_truth_table.png)
 
 AND requires that two expressions both be true in order for the entire
 expression to evaluate to true. In all other cases, the expression
@@ -47,7 +48,7 @@ work as a plumber, then I must go to work today.\"
 
 #### Python
 
-```
+```python
 today = "Monday"
 my_job = "plumber"
 if today == "Tuesday" and my_job == "plumber":
@@ -58,7 +59,7 @@ The above example has the day hard-coded as \"Monday\". Here\'s an
 alternate version of the same program that determines the true the day
 of the week:
 
-```
+```python
 #the datetime module can return the day of the week as an int between 0 to 6, representing the days from Monday to Sunday
 import datetime
 today = datetime.datetime.today().weekday()
@@ -69,7 +70,7 @@ if today == 2 and my_job == "plumber":
 
 #### Java
 
-```
+```java
 String today = "Monday";
 String myJob = "plumber";
 if (today.equals("Tuesday") && myJob == "plumber") {
@@ -81,7 +82,8 @@ if (today.equals("Tuesday") && myJob == "plumber") {
 
 The OR logic operator is used to evaluate two Boolean values according
 to the following truth table:
-![OR logic](./images/boolean-logic/Or_logic_truth_table.png "fig:Or_logic_truth_table.png")
+
+![OR logic](./images/boolean-logic/Or_logic_truth_table.png)
 
 If one or more values in an OR expression evaluates is true, the entire
 expression is true. If both values are false, the entire expression
@@ -92,7 +94,7 @@ overworked, I\'m going to take the day off.\"
 
 #### Python
 
-```
+```python
 feeling = "lazy"
 horribly_overworked = False
 if feeling == "lazy" or horribly_overworked == True:
@@ -101,7 +103,7 @@ if feeling == "lazy" or horribly_overworked == True:
 
 #### Java
 
-```
+```java
 String feeling = "lazy";
 boolean horriblyOverworked = false;
 if (feeling.equals("lazy") || horriblyOverworked == true) {
@@ -113,17 +115,18 @@ if (feeling.equals("lazy") || horriblyOverworked == true) {
 
 The NOT logic operator is used to evaluate a single Boolean values and
 flip it to its invert:
-![NOT logic](./images/boolean-logic/Not_logic_truth_table.png "fig:Not_logic_truth_table.png")
+
+![NOT logic](./images/boolean-logic/Not_logic_truth_table.png)
 
 NOT logic simply reverses a Boolean value. If something was true, it
 becomes false. If it was false, it becomes true.
 
-Imagine the following phrase in code, \"If this is not fun, then why am
-I doing it?\"
+Imagine the following phrase in code, "If this is not fun, then why am
+I doing it?"
 
 #### Python
 
-```
+```python
 this_is_fun = False
 if not this_is_fun:
    print("Then why are you doing this?")
@@ -131,7 +134,7 @@ if not this_is_fun:
 
 #### Java
 
-```
+```java
 boolean thisIsFun = false;
 if (!thisIsFun) {
     System.out.println("Then why are you doing this?");

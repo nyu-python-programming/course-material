@@ -61,8 +61,8 @@ popular Python package manager.
 
 There are two ways to import the functions from a module, for example:
 
-- import random
-- from random import \*
+- `import random`
+- `from random import *`
 
 ### using code in modules
 
@@ -72,77 +72,70 @@ upon how you imported it:
 If you imported in the style, \"import random\", for example, you would
 call that module\'s functions like this:
 
-- random.randint(1, 100)
-- random.randrange(10)
-- random.random()
-- random.uniform(1.0, 10.0)
-- random.seed(10)
+- `random.randint(1, 100)`
+- `random.randrange(10)`
+- `random.random()`
+- `random.uniform(1.0, 10.0)`
+- `random.seed(10)`
 
-If you imported in the style, \"from random import \*\", for example,
-you would call that module\'s functions like this:
+If you imported in the style, `from random import *`, for example, you would call that module\'s functions like this:
 
-- randint(1,100)
-- randrange(10)
-- random()
-- uniform(1.0, 10.0)
-- seed(10)
+- `randint(1,100)`
+- `randrange(10)`
+- `random()`
+- `uniform(1.0, 10.0)`
+- `seed(10)`
 
 ## Random module
 
-The random module contains lots of functions related to generating
-pseudo-random numbers, such as:
+The random module contains lots of functions related to generating pseudo-random numbers, such as:
 
-- randint()
-- randrange()
-- random()
-- uniform()
-- seed()
+- `randint()`
+- `randrange()`
+- `random()`
+- `uniform()`
+- `seed()`
 
 ### generating a pseudo-random integer within a defined range
 
-```
- import random
- x = random.randint(10, 20) #generates an int between 10 and 20, inclusive
+```python
+import random
+x = random.randint(10, 20) #generates an int between 10 and 20, inclusive
 ```
 
 ### generating pseudo-random numbers
 
-```
- import random
+```python
+import random
 
- #roll the dice
- die1 = int((random.random() * 6) + 1)
- die2 = int((random.random() * 6) + 1)
+#roll the dice
+die1 = int((random.random() * 6) + 1)
+die2 = int((random.random() * 6) + 1)
 
+total = die1 + die2
 
- total = die1 + die2
+if die1 == 1 and die2 == 1:
+    print("Snake eyes!")
 
-
- if die1 == 1 and die2 == 1:
-     print("Snake eyes!")
-
-
- print("Your total is: " + str(total))
+print("Your total is: " + str(total))
 ```
 
 ### How to shift the range of a pseudo-random number
 
-This example shows how to take a pseudo-random number from within one
-range (0 to 0.999 in this example) and shift it to an equivalent number
-within another range (20 to 99.999 in this example).
+This example shows how to take a pseudo-random number from within one range (0 to 0.999 in this example) and shift it to an equivalent number within another range (20 to 99.999 in this example).
 
-```
- #import the random module
- import random
+```python
+#import the random module
+import random
 
- #generate a random float betwen 0 and 0.99999
- x = random.random()
+#generate a random float betwen 0 and 0.99999
+x = random.random()
 
- #shift that number to be in the range between 20 to 99.9999
- x = (x * 80) + 20
+#shift that number to be in the range between 20 to 99.9999
+x = (x * 80) + 20
 
- #print out the number
- print(x)
+#print out the number
+print(x)
 ```
 
 ### Specifying the seed used to generate random numbers
@@ -153,7 +146,7 @@ pseudo-random number. Two random number generators that are given the
 same seed will generate the same random numbers. This is the core of
 many bank security systems.
 
-```
+```python
  import random
 
  print("Pseudo-random set of numbers based on seed 4")
@@ -164,7 +157,7 @@ many bank security systems.
  print(random.random())
 ```
 
-```
+```python
  print("\nSame pseudo-random set of numbers based on seed 4")
  random.seed(4)
  print(random.random())
@@ -173,7 +166,7 @@ many bank security systems.
  print(random.random())
 ```
 
-```
+```python
  print("\nDifferent pseudo-random set of numbers based on seed 111")
  random.seed(111)
  print(random.random())
@@ -187,7 +180,7 @@ the type of random numbers you generate.
 
 ### Using random.randrange(), random.randint(), and random.uniform()
 
-```
+```python
  import random
 
  #use randrange function
@@ -230,15 +223,15 @@ to algebra and trigonometry, such as:
 
 Functions:
 
-- ceil()
-- floor()
-- pow()
-- sqrt()
-- factorial()
+- `ceil()`
+- `floor()`
+- `pow()`
+- `sqrt()`
+- `factorial()`
 
 Example:
 
-```
+```python
  import math
  x = 10.2
  y = math.ceil(x) #11
@@ -249,20 +242,20 @@ Example:
 
 Functions:
 
-- cos()
-- sin()
-- tan()
-- acos()
-- asin()
+- `cos()`
+- `sin()`
+- `tan()`
+- `acos()`
+- `asin()`
 
 Properties:
 
-- pi
-- e
+- `pi`
+- `e`
 
 Example:
 
-```
+```python
  #import the math module
  import math
 
@@ -289,7 +282,7 @@ The datetime module includes:
 
 ### Determine the day of the week
 
-```
+```python
  from datetime import *
 
  def getFriendlyDayFromInt(dayNum):
@@ -326,7 +319,7 @@ The datetime module includes:
 
 ### Parse the day of the week a bit more
 
-```
+```python
  from datetime import *
 
  def isEarlyInTheWeek(num):
@@ -399,7 +392,7 @@ Get the last modified date of a particular file in bytes:
 
 ### Accessing the computer\'s file system
 
-```
+```python
  import os
 
  #get the current working directory (by default the folder where this program is saved)
@@ -429,7 +422,7 @@ like it.
 
 This program draws a simple geometric shape.
 
-```
+```python
  import turtle
 
  turtle.color('red', 'yellow')
@@ -447,7 +440,7 @@ This program draws a simple geometric shape.
 
 This program makes the turtle jiggle around uncontrollably.
 
-```
+```python
  import turtle
  import random
 
@@ -502,7 +495,7 @@ text-based web browser by fetching documents from the internet:
 This example program requests the text of a web page and prints it out
 to the console.
 
-```
+```python
  #import the urllib request module
  import urllib.request
 
@@ -529,7 +522,7 @@ variety of parsing tasks, rather than write this code manually.
 
 **Note:** I have not tested this example.
 
-```
+```python
  import urllib.request
 
  response = urllib.request.urlopen("http://python.org") #make a request to a web server, and store the response
@@ -550,7 +543,7 @@ variety of parsing tasks, rather than write this code manually.
 
 ### Creating a web crawling spider
 
-```
+```python
  #example that crawls all NYU i6 accounts and counts how many times  a given word is mentioned
 
  import urllib.request
@@ -612,7 +605,7 @@ order to be available.
 
 ### HTML parser
 
-```
+```python
  #import the module
  from bs4 import BeautifulSoup
 

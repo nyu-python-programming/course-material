@@ -2,321 +2,282 @@
 
 ## List functions
 
-- `<span>`x = \[0, 1,
-  2\]`</font>`
-- find out how many elements are in a list:
-  `<span>`len(x)
-  `</font>`
-  3 `</font>`
-- append a single value to a list:
-  `<span>`x.append(3)
-  `</font>`-\>
-  `<span>`\[0, 1, 2,
-  3\]`</font>`
-- append a sequence to a list:
-  `<span>`
-  -\> `<span>`\[0, 1, 2, 3,
-  \'c\', \'a\', \'t\'\] `</font>`
-- remove the last element from a
-  list:`<span>` x.pop()
-  `</font>`-\>
-  `<span>`\[0, 1, 2, 3, \'c\',
-  \'a\'\] `</font>`
-- remove any element from a
-  list:`<span>`
-  x.pop(4)`</font>`
-  -\>`<span>` \[0, 1, 2, 3,
-  \'a\'\]`</font>`
-- remove the first occurance:
-  `<span>`
-  -\> `<span>` \[0, 1, 2,
-  3\]`</font>`
-- insert an element into the list:
-  `<span>`x.insert(2,
-  \"foo\")`</font>` -\>
-  `<span>`
-  \[0,1,\'foo\',2,3\]`</font>`
-- reverse a list:
-  `<span>`
-  -\>`<span>` \[3, 2, 1,
-  0\]`</font>`
-- sort a list:
-  `<span>`
-  -\> `<span>`\[0, 1, 2,
-  3\]`</font>`
+- `x = [0, 1, 2]`
+- find out how many elements are in a list: `len(x)` # -> `3`
+- append a single value to a list: `x.append(3)` # -> `[0, 1, 2, 3]`
+- append a sequence to a list: `x.extend("cat")` # -> `[0, 1, 2, 3, 'c', 'a', 't']`
+- remove the last element from a list: `x.pop()` # -> `[0, 1, 2, 3, 'c', 'a']`
+- remove any element from a list: `x.pop(4)` # -> `[0, 1, 2, 3, 'a']`
+- remove the first occurance: `x.remove("a")` # -> `[0, 1, 2, 3]`
+- insert an element into the list: `x.insert(2, "foo")` # -> `[0,1,'foo',2,3]`
+- reverse a list: `x.reverse()` # -> `[3, 2, 1, 0]`
+- sort a list: `x.sort()` # -> `[0, 1, 2, 3]`
 
 ## Multidimensional Lists
 
 A two-dimensional list:
 
-```
+```python
 x = [
-
     [ "this is" , "the first" , "row" ],
     [ "another", "list, another", "row" ],
     [ "the" , "last" , "row" ]
-
 ]
 ```
 
-- access individual elements:
-  `<span>`
-  -\>
-  `<span>`
-- overwrite individual elements:
-  `<span>`x\[2\]\[2\] =
-  \"stand\"`</font>`
+- access individual elements: `x[1][0]` # -> `"another"`
+- overwrite individual elements: `x[2][2] = "stand"`
 - looping through multidimensional list with nested for loops
 
 ## Examples
 
 ### Comparison of mutable vs. immutable data types
 
-```
- #ints, floats, bools, nonetypes, and strings are all immutable
- #lists and dictionaries are mutable
+```python
+#ints, floats, bools, nonetypes, and strings are all immutable
+#lists and dictionaries are mutable
 
+x = 5
+y = x #for immutable data types, the assignment operator makes a copy
+x = 10
 
- x = 5
- y = x #for immutable data types, the assignment operator makes a copy
- x = 10
- print(y)
+print(y)
 
+x = [1,2,3,4]
+y = x #for mutable data types, the assignment operator makes an alias
+x.reverse()
 
- x = [1,2,3,4]
- y = x #for mutable data types, the assignment operator makes an alias
- x.reverse()
- print(y)
+print(y)
 ```
 
 ### Referring to list elements by their index numbers
 
-```
+```python
  # this is indexing. x[1] will access to second element, x[0] will access to first element, etc.
 
  # x points to a particular list value in memory
  x = [
-         "tomatoes",
-         "potatoes",
-         "sprats",
-         "frings",
-         "diet coke",
-     ]
+    "tomatoes",
+    "potatoes",
+    "sprats",
+    "frings",
+    "diet coke",
+]
 
- #so x[0] will print out tomatoes, x[1] will print out potatoes
- print(x[1])
+#so x[0] will print out tomatoes, x[1] will print out potatoes
+print(x[1])
 
- # manually add a new element to the list
- #x[5] = "carrots" # this causes an error, because the the index 5 is higher than any element in the list
- x.append("carrots") #this is the proper way to add a new element to the list at index 5
+# manually add a new element to the list
+#x[5] = "carrots" # this causes an error, because the the index 5 is higher than any element in the list
+x.append("carrots") #this is the proper way to add a new element to the list at index 5
 
 
- # example of how to loop through the elements of a list
- for i in x:
-     print(i)
+# example of how to loop through the elements of a list
+for i in x:
+    print(i)
 ```
 
 ### List functions
 
-```
- x = [] #create a blank list
- x.append("bob") #add an element to the list
- x.append("sheila")
- x.append("ramon")
- x.append("polina")
- x.append("francisco")
- x.pop() #removes the last element from the list
- x.pop()
- x.pop(1) #if you indicate an index, it deletes the element with that index
- x.insert(1, "francisco") #inserts a new element at index 1
- x.extend("kat")#extend adds elements from a sequence into the list
+```python
+x = [] #create a blank list
+x.append("bob") #add an element to the list
+x.append("sheila")
+x.append("ramon")
+x.append("polina")
+x.append("francisco")
+x.pop() #removes the last element from the list
+x.pop()
+x.pop(1) #if you indicate an index, it deletes the element with that index
+x.insert(1, "francisco") #inserts a new element at index 1
+x.extend("kat")#extend adds elements from a sequence into the list
 
- #note that apend and extend do different things... know the difference!
- #x.extend(["harry", "alicia", "shmuli"])
- #x.append(["harry", "alicia", "shmuli"])
+#note that apend and extend do different things... know the difference!
+#x.extend(["harry", "alicia", "shmuli"])
+#x.append(["harry", "alicia", "shmuli"])
 
- print(x) #do you really need a comment explaining this line?
+print(x) #do you really need a comment explaining this line?
 ```
 
 ### List functions (again)
 
-```
- homeTowns = ["Denver", "Brooklyn", "Croton-on-Hudson", "Tupelo", "Mahopac", "Albany", "Boston", "Istanbul", "Medellin", "Jacksonville", "Osnabrueck", "Seattle", "San Diego", "Scranton", "San Antonio", "Sacramento", "Montval", "Weston"]
+```python
+homeTowns = ["Denver", "Brooklyn", "Croton-on-Hudson", "Tupelo", "Mahopac", "Albany", "Boston", "Istanbul", "Medellin", "Jacksonville", "Osnabrueck", "Seattle", "San Diego", "Scranton", "San Antonio", "Sacramento", "Montval", "Weston"]
 
- #get the length of any list using the len() function
- lengthOfList = len(homeTowns)
+#get the length of any list using the len() function
+lengthOfList = len(homeTowns)
 
- #add another element to the list
- homeTowns.append("New York")
+#add another element to the list
+homeTowns.append("New York")
 
- #insert a new element into position #3 the old-school way
- pos = 8
- firstPart = homeTowns[:pos]
- secondPart = homeTowns[pos:]
- homeTowns = firstPart + ["Newark"] + secondPart
+#insert a new element into position #3 the old-school way
+pos = 8
+firstPart = homeTowns[:pos]
+secondPart = homeTowns[pos:]
+homeTowns = firstPart + ["Newark"] + secondPart
 
- #insert a new element into position #3 the modern way
- homeTowns.insert(8, "Vancouver")
+#insert a new element into position #3 the modern way
+homeTowns.insert(8, "Vancouver")
 
- #extend the list
- homeTowns.extend(["foo", "bar"])
+#extend the list
+homeTowns.extend(["foo", "bar"])
 
- #remove the last element from the list based on its position
- homeTowns.pop()
- homeTowns.pop(len(homeTowns)-1)
+#remove the last element from the list based on its position
+homeTowns.pop()
+homeTowns.pop(len(homeTowns)-1)
 
- #remove the first occurance of a specific value
- homeTowns.remove("Medellin")
+#remove the first occurance of a specific value
+homeTowns.remove("Medellin")
 
- #try to remove the first occurance of a specific value that is actually not in the list
- counter = 0
- for value in homeTowns:
-     if value == "San Francisco":
-         homeTowns.pop(counter)
-     counter = counter + 1
+#try to remove the first occurance of a specific value that is actually not in the list
+counter = 0
+for value in homeTowns:
+    if value == "San Francisco":
+        homeTowns.pop(counter)
+    counter = counter + 1
 
- #reverse the order of a list
- homeTowns.reverse()
+#reverse the order of a list
+homeTowns.reverse()
 
- #sort the order of a list alphabetically or numerically
- homeTowns.sort()
+#sort the order of a list alphabetically or numerically
+homeTowns.sort()
 
- print(homeTowns)
+print(homeTowns)
 ```
 
 ### Sort order
 
-```
- #sort numeric lists
- x = [10, 20.1, 5.0, 100, -6, 1]
- x.sort()
- x.reverse() #flip it in reverse order
- print(x)
+```python
+#sort numeric lists
+x = [10, 20.1, 5.0, 100, -6, 1]
+x.sort()
+x.reverse() #flip it in reverse order
+print(x)
 
- #sort string lists
- x = ["bob", "rodrigo", "alonso", "zlata", "kevin", "xio"]
- x.sort()
- print(x)
+#sort string lists
+x = ["bob", "rodrigo", "alonso", "zlata", "kevin", "xio"]
+x.sort()
+print(x)
 
- #cannot sort mixed type lists
- #x = ["bob", 10, True, None, 1.9, False, [], "harry"]
- #x.sort() #an error... why would you ever want to do this?
- #print(x)
+#cannot sort mixed type lists
+#x = ["bob", 10, True, None, 1.9, False, [], "harry"]
+#x.sort() #an error... why would you ever want to do this?
+#print(x)
 
- #sort boolean list
- x = [False, True, False, True, True, False, False]
- x.sort() #falses are like 0, Trues are like 1
- print(x)
+#sort boolean list
+x = [False, True, False, True, True, False, False]
+x.sort() #falses are like 0, Trues are like 1
+print(x)
 
- #cannot sort NoneType values... why would you want to?
- #x = [None, None, None, None]
- #x.sort() #an error
- #print(x)
+#cannot sort NoneType values... why would you want to?
+#x = [None, None, None, None]
+#x.sort() #an error
+#print(x)
 ```
 
 ### Populating a list from user input, and then reversing its order
 
-```
- listOfNumbers = [] #blank list
+```python
+listOfNumbers = [] #blank list
 
- keepLooping = True #flag
+keepLooping = True #flag
 
- #loop until the flag is false
- while keepLooping:
-     num = input("What's the number?")
-     if num.lower() == "get me out of here!":
-         keepLooping = False
-     elif num.isnumeric():
-         num = int(num)
-         listOfNumbers.append(num)
-     else:
-         print("Please enter a number...")
+#loop until the flag is false
+while keepLooping:
+    num = input("What's the number?")
+    if num.lower() == "get me out of here!":
+        keepLooping = False
+    elif num.isnumeric():
+        num = int(num)
+        listOfNumbers.append(num)
+    else:
+        print("Please enter a number...")
 
- #reverse the order of the list
- #listOfNumbers.reverse()
- listOfNumbers = listOfNumbers[::-1]
+#reverse the order of the list
+#listOfNumbers.reverse()
+listOfNumbers = listOfNumbers[::-1]
 
- #loop through the list and print out all the values
- for value in listOfNumbers:
-     print(value)
+#loop through the list and print out all the values
+for value in listOfNumbers:
+    print(value)
 
-
- print("Done")
+print("Done")
 ```
 
 ### Calculating averages
 
-```
- average = 0
- readings = []
+```python
+average = 0
+readings = []
 
- reading = ""
- while reading != "exit":
-     reading = input("Please enter a reading: ")
-     if reading.isnumeric():
-         reading = int(reading)
-         readings.append(reading) #add new element to list
+reading = ""
 
- sum = 0
- for reading in readings:
-     sum = sum + reading
+while reading != "exit":
+    reading = input("Please enter a reading: ")
+    if reading.isnumeric():
+        reading = int(reading)
+        readings.append(reading) #add new element to list
 
- numReadings = len(readings) #how many readings are there?
- average = sum / numReadings  #caculate the average
+sum = 0
+for reading in readings:
+    sum = sum + reading
 
+numReadings = len(readings) #how many readings are there?
+average = sum / numReadings  #caculate the average
 
- print("The average reading was: ", average)
+print("The average reading was: ", average)
 ```
 
 ### Mood diagnostic tool
 
-```
- def getNumberFromMood(mood):
-     if mood == "angry":
-         return 0
-     elif mood == "sad":
-         return 1
-     elif mood == "apathetic":
-         return 2
-     elif mood == "happy":
-         return 3
+```python
+def getNumberFromMood(mood):
+    if mood == "angry":
+        return 0
+    elif mood == "sad":
+        return 1
+    elif mood == "apathetic":
+        return 2
+    elif mood == "happy":
+        return 3
 
- def getMoodFromNumber(num):
-     if num == 0:
-         return "angry"
-     elif num == 1:
-         return "sad"
-     elif num == 2:
-         return "apathetic"
-     elif num == 3:
-         return "happy"
+def getMoodFromNumber(num):
+    if num == 0:
+        return "angry"
+    elif num == 1:
+        return "sad"
+    elif num == 2:
+        return "apathetic"
+    elif num == 3:
+        return "happy"
 
- moods = []
+moods = []
+response = ""
 
- response = ""
- while response != "exit":
-     response = input("Please enter your current mood: ")
-     if response != "exit":
-         moods.append(response)
+while response != "exit":
+    response = input("Please enter your current mood: ")
+    if response != "exit":
+        moods.append(response)
 
+sum = 0
+i = len(moods) - 1
+counter = 0
 
- sum = 0
- i = len(moods) - 1
- counter = 0
- while i > 0:
-     sum = sum + getNumberFromMood(moods[i])
-     i = i - 1
-     counter = counter + 1
-     if counter == 7:
-         break
+while i > 0:
+    sum = sum + getNumberFromMood(moods[i])
+    i = i - 1
+    counter = counter + 1
+    if counter == 7:
+        break
 
- average = sum / len(moods)
- average = round(average) #round to the closest integer
+average = sum / len(moods)
+average = round(average) #round to the closest integer
 
- print(average)
+print(average)
 
- mood = getMoodFromNumber(average)
- print(mood)
+mood = getMoodFromNumber(average)
+
+print(mood)
 ```
 
 ### Characters
@@ -324,63 +285,62 @@ x = [
 Strings and Lists are both Sequence data types, and so share a lot in
 common.
 
-```
- x = "this is a string"
+```python
+x = "this is a string"
 
- #x[2] = "u" #this is an error... you cannot modify strings... they are immutable
+#x[2] = "u" #this is an error... you cannot modify strings... they are immutable
+#loop through the characters in the string, the same way you loop through elements in a list
 
- #loop through the characters in the string, the same way you loop through elements in a list
- for character in x:
-     print(character)
+for character in x:
+    print(character)
 ```
 
 ### Aliases
 
-```
- x = [
-         "tomatos",
-         "potatoes",
-         "sprats",
-         "frings",
-         "diet coke",
-     ]
+```python
+x = [
+        "tomatos",
+        "potatoes",
+        "sprats",
+        "frings",
+        "diet coke"
+]
 
- # make an alias of x that points to the same list value in memory
- y = x
+# make an alias of x that points to the same list value in memory
+y = x
 
- # this works just like the previous example.
- y[2] = "buttered haddock"
+# this works just like the previous example.
+y[2] = "buttered haddock"
 
- for element in x:
-     print(element)
+for element in x:
+    print(element)
 ```
 
 ### Slicing
 
-```
- x = [
-         "tomatos",
-         "potatoes",
-         "sprats",
-         "frings",
-         "diet coke",
-     ]
+```python
+x = [
+    "tomatos",
+    "potatoes",
+    "sprats",
+    "frings",
+    "diet coke"
+]
 
- # copy of the first 3 element in x stored in y
- y = x[0:3] #use slice indexing
+# copy of the first 3 element in x stored in y
+y = x[0:3] #use slice indexing
+x[2] = 'butternut squash'
 
- x[2] = 'butternut squash'
+#loop through the copy
+for element in y:
+    print(element)
+y = x[::] # starting:ending:spacing(?) if the last one is -1, the list will be backwards.
 
- #loop through the copy
- for element in y:
-     print(element)
+# negative number always start from end of list to the biginning
 
- y = x[::] # starting:ending:spacing(?) if the last one is -1, the list will be backwards.
- # negative number always start from end of list to the biginning
-
- #check whether a value exists as an element in the list
- if "sprats" in x:
-     print("ooooh, you like sprats??")
+#check whether a value exists as an element in the list
+if "sprats" in x:
+    print("ooooh, you like sprats??")
 ```
 
 ### Tic Tac Toe (the basic idea)
@@ -390,14 +350,13 @@ requires a variety of list-related techniques in one example. The
 following code shows the basic idea of how to store the game board as a
 two-dimensional list.
 
-```
+```python
  def showBoard():
      global board
      for row in board:
          for col in row:
              print(col, end="")
          print()
-
 
  board = [
             ["-", "-", "-"],
@@ -434,7 +393,7 @@ two-dimensional list.
 This version of the Tic Tac Toe game includes various kinds of input
 validation, and checks for wins with each move.
 
-```
+```python
  def printBoard():
      global board
      print("-------")

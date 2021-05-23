@@ -2,17 +2,16 @@
 
 ## For loops
 
-[For loops](For_loops) iterate through a finite sequence of
-values.
+[For loops](loops-for.md) iterate through a finite sequence of values.
 
 - finite loops
-- lists \[0,1,2,3,4,5\]
-- lists \[\'a\', \'b\', \'c\', \'d\'\]
-- range(x)
-- range(x, y)
-- range(-x, -y)
-- range(x, y, z)
-- range(x, y,-z)
+- lists `[0,1,2,3,4,5]`
+- lists `['a', 'b', 'c', 'd']`
+- `range(x)`
+- `range(x, y)`
+- `range(-x, -y)`
+- `range(x, y, z)`
+- `range(x, y,-z)`
 
 Iterate through strings, lists, ranges, or files:
 
@@ -25,13 +24,10 @@ Iterate through strings, lists, ranges, or files:
 
 ## While loops
 
-[While loops](While_loops) repeat a potentially unfinite
-number of iterations.
+[While loops](loops-while.md) repeat a potentially unfinite number of iterations.
 
 - indefinite loops
-  - Since while loop is indefinite loops, when for loop is definite,
-    it is better to use while loop to set up the conditions that
-    have to be satisfied to prevent the program from crashing.
+  - Since while loop is indefinite loops, when for loop is definite, it is better to use while loop to set up the conditions that have to be satisfied to prevent the program from crashing.
 - condition-based loops
 - accumulator pattern
   - running totals
@@ -40,8 +36,8 @@ number of iterations.
 
 ## General loop controls
 
-- break
-- continue
+- `break`
+- `continue`
 
 ## Input validation
 
@@ -53,17 +49,15 @@ number of iterations.
 
 ## Formatting
 
-- converting Strings to uppercase or lowercase in order to make
-  validation case-insensitive
+- converting Strings to uppercase or lowercase in order to make validation case-insensitive
 
 ## Example programs in Python
 
 ### Number validation example
 
-Note the use of the while loops to indefinitely iterate until an
-acceptable number has been entered.
+Note the use of the while loops to indefinitely iterate until an acceptable number has been entered.
 
-```
+```python
 msg = "What's your lucky integer"
 
 num = ""
@@ -83,7 +77,7 @@ while num != 50:
 Note the use of the while loop to indefinitely iterate until an
 acceptable name has been entered.
 
-```
+```python
 name = input("What's your name").lower()
 
 while not name == "bob":
@@ -96,7 +90,7 @@ print("Hi Bob!")
 
 Note the use of a flag, the accumulator pattern, and the while loop
 
-```
+```python
 hoursTotal = 0
 
 keepLooping = True #start the flag as true

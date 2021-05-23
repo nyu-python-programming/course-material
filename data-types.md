@@ -13,9 +13,9 @@ Simple numbers with no decimal place.
 
 Examples:
 
-- 4
-- 666
-- -2
+- `4`
+- `666`
+- `-2`
 
 ### Floating point numbers
 
@@ -23,9 +23,9 @@ Numbers with decimal points.
 
 Examples:
 
-- 12.2
-- 3.14159
-- 1.0
+- `12.2`
+- `3.14159`
+- `1.0`
 
 ### Strings
 
@@ -40,13 +40,13 @@ using.
 
 Examples:
 
-- \"money\"
-- \"4\" \#note that most languages will treat this as a string, not an
+- `"money"`
+- `"4"` \#note that most languages will treat this as a string, not an
   int because of the quotes
-- \"12.2\" \#note that most languages will treat this as a string, not
+- `"12.2"` \#note that most languages will treat this as a string, not
   a float because of the quotes
 
-See more on [Strings](Strings)
+See more on [Strings](./string-basics.md)
 
 ### Booleans
 
@@ -55,63 +55,60 @@ understands to be either true or false.
 
 Examples of Boolean values in Python:
 
-- True
-- False
+- `True`
+- `False`
 
 Examples of Boolean values in Java:
 
-- true
-- false
+- `true`
+- `false`
 
-See more on [Boolean logic](Boolean_logic_primitives)
+See more on [Boolean logic](./boolean-logic.md)
 
 ## Aggregate data structures
 
 Some data structures allow you to group together a bunch of different
 pieces of data into a single aggregate data structure. These are a bit
-more \"high-level\".
+more "high-level".
 
 ### Lists and arrays
 
-[Lists](Lists), also known as arrays, are groups of single
-values.
+[Lists](./list-basics.md), also known as arrays, are groups of single values.
 
-- e.g. \"money\", \"wealth\", and \"peanut butter\"
+- e.g. `"money", "wealth", and "peanut butter"`
 
 ### Dictionaries, associative arrays, and hash maps
 
-[Dictionaries](Dictionaries), associative arrays, and hash
+[Dictionaries](./dictionary-basics.md), associative arrays, and hash
 tables, are all data structures that hold a group of key/value pairs.
 
-- e.g. \"my_name\": \"Inego Montoya\", \"reason_here\": \"to kill your
-  father\"
+- e.g. `"my_name": "Inego Montoya", "reason_here": "to kill your father"`
 
 ## Incompatibilities among data types
 
-When trying to perform operations on values of multiple data types, it
-is not uncommon to find incompatibilities among the data types. Each
-high-level programming language has its own limitations on how different
-data types can be mixed and matched in operations.
+When trying to perform operations on values of multiple data types, it is not uncommon to find incompatibilities among the data types. Each high-level programming language has its own limitations on how different data types can be mixed and matched in operations.
 
 ### Python examples
 
 Example of an error:
 
-`x = "my favorite number " #a string`\
-`y = 4 #an int`\
-`z = x + y #an error! you cannot add a string to an int`
+```python
+x = "my favorite number " #a string
+y = 4 #an int
+z = x + y #an error! you cannot add a string to an int
+```
 
 Example of a potential solution
 
-`x = "my favorite number " #a string`\
-`y = 4 #an int`\
-`z = x + str(y) #fine! the int was converted to a string before adding`
+```python
+x = "my favorite number " #a string
+y = 4 #an int
+z = x + str(y) #fine! the int was converted to a string before adding
+```
 
 ## Converting among data types
 
-Often it is useful to translate a value from one data type into another
-data type. Each high-level programming language has its own techniques
-for how to convert data of one type to data of another type.
+Often it is useful to translate a value from one data type into another data type. Each high-level programming language has its own techniques for how to convert data of one type to data of another type.
 
 ### Python examples
 
@@ -119,44 +116,43 @@ Imagine you have a variable x
 
 `x = "4"`
 
-Python [built-in functions](Modules_in_Python#built-ins):
+Python [built-in functions](./modules.md):
 
-- int(x) -- converts a float or string to an integer
-- float(x) -- converts an integer or string to a float
-- str(x) -- converts an integer or float to a string
-- bool(x) - converts various data types to a boolean equivalent
-- list(x) - converts any data type to a list
+- `int(x)` -- converts a float or string to an integer
+- `float(x)` -- converts an integer or string to a float
+- `str(x)` -- converts an integer or float to a string
+- `bool(x)` - converts various data types to a boolean equivalent
+- `list(x)` - converts any data type to a list
 
 #### Code examples
 
-`#input`\
-`x = input("What's your lucky number today?")`\
-\
-`#processing`\
-`y = int(x) * 10`\
-\
-`#output`\
-`msg = "Your lucky number times ten is " + str(y)`\
-`print(msg)`
+```python
+#input
+x = input("What's your lucky number today?")
+
+#processing
+y = int(x) * 10
+
+#output
+msg = "Your lucky number times ten is " + str(y)
+print(msg)
+```
 
 ## Introspection
 
-If you\'re not sure what data type a given value is, find out. Each
-high-level programming language has its own techniques for
-introspection, or discovering information about the system and the data
-stored in the system.
+If you\'re not sure what data type a given value is, find out. Each high-level programming language has its own techniques for introspection, or discovering information about the system and the data stored in the system.
 
 ### Python examples
 
-- type(x) -- determines what type a given piece of data is
-- dir(\_\_builtins\_\_) \#shows you a list of [Python's built-in
-  functions](http://docs.python.org/py3k/library/functions.html)
-- print(input.\_\_doc\_\_) \#shows you the input() function's (or any
-  other function's) usage documentation
-- help(input) \#shows you the Python help for the input() function (or
+- `type(x)` -- determines what type a given piece of data is
+- `dir(__builtins__)` \#shows you a list of [Python's built-in functions](http://docs.python.org/py3k/library/functions.html)
+- `print(input.__doc__)` \#shows you the input() function's (or any other function's) usage documentation
+- `help(input)` \#shows you the Python help for the input() function (or
   any other function)
 
 #### Code examples
 
-`if type("a haircut") == str:`\
-` print("Hoorah!")`
+```python
+if type("a haircut") == str:
+  print("Hoorah!")
+```

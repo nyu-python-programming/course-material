@@ -8,21 +8,21 @@ Text files can be opened in one of three distinct ways:
 
 Read mode:
 
-```
+```python
 #e.g.
 f = open("data.csv", "r") #open in read mode
 ```
 
 Write mode:
 
-```
+```python
 #e.g.
 f = open("data.csv", "w") #open in write mode
 ```
 
 Append mode:
 
-```
+```python
 #e.g.
 f = open("data.csv", "a") #open in append mode
 ```
@@ -31,14 +31,14 @@ f = open("data.csv", "a") #open in append mode
 
 Read the entire file in one fell swoop:
 
-```
+```python
 #e.g.
 theFullMonty = f.read() #read entire file
 ```
 
 Read just a single line at a time:
 
-```
+```python
 #e.g.
 line1 = f.readline() #get the first line
 line2 = f.readline() #get the second line
@@ -47,7 +47,7 @@ line2 = f.readline() #get the second line
 
 Loop through all lines:
 
-```
+```python
 #e.g.
 for line in f:
     #do something
@@ -55,7 +55,7 @@ for line in f:
 
 ### Checking whether a file already exists
 
-Python\'s [os module](Modules_in_Python#OS_module) contains
+Python\'s [os module](modules.md) contains
 useful methods for checking whether any given file already exists in the
 file system.
 
@@ -71,7 +71,7 @@ know which encoding scheme a given text file uses.
 
 ### The problem
 
-Python\'s open() function defaults to using whatever the default
+Python\'s `open()` function defaults to using whatever the default
 encoding scheme is on the computer you\'re using. Often that\'s not good
 enough. If you don\'t specify the correct encoding scheme, your program
 may crash if it encounters a character that is not found in the encoding
@@ -83,9 +83,9 @@ In situations where you need to use a specific encoding scheme,
 [Python\'s codecs module](https://docs.python.org/3/library/codecs.html)
 can help. One easy solution is to specify the encoding scheme you would
 like to use when opening a file. You can do this easily with the codecs
-module\'s open() function, rather than the default open() function
+module\'s `open()` function, rather than the default `open()` function
 
-```
+```python
 import codecs
 
 #the following example opens the file with utf-8 encoding
@@ -95,40 +95,40 @@ f = codecs.open("data.csv", mode='r', encoding='utf-8')
 ## Strings in Python
 
 Python has lots of [useful String-related
-functions](Strings#String_functions).
+functions](string-basics.md).
 
 ### String-related functions that return a String
 
-- .upper() - returns an uppercase version of the string
-- .lower() - returns a lowercase version of the string
-- .title() - returns a version of the string with the first letter of
+- `.upper()` - returns an uppercase version of the string
+- `.lower()` - returns a lowercase version of the string
+- `.title()` - returns a version of the string with the first letter of
   every word capitalized.
-- .capitalize() - returns a version of the string with the first
+- `.capitalize()` - returns a version of the string with the first
   letter capitalized
-- .strip() - returns a version of the string with any leading
+- `.strip()` - returns a version of the string with any leading
   whitespace removed
-- .rstrip() - returns a version of the string with any trailing
+- `.rstrip()` - returns a version of the string with any trailing
   whitespace removed
-- .join(_some_list_) - returns a string that has all items from the
+- `.join(_some_list_)` - returns a string that has all items from the
   list argument separated using the string as separator
 
 ### String-related functions that return an Integer
 
-- .find(x) - returns the index position in the String at which x is
+- `.find(x)` - returns the index position in the String at which x is
   found
 
 ### String-related functions that return a Boolean
 
-- .isupper() - returns boolean True if the string is uppercase, False
+- `.isupper()` - returns boolean True if the string is uppercase, False
   otherwise
-- .islower() - returns boolean True if the string is lowercase, False
+- `.islower()` - returns boolean True if the string is lowercase, False
   otherwise
-- .isnumeric() - returns a boolean True if the string represents a
+- `.isnumeric()` - returns a boolean True if the string represents a
   number, False otherwise
 
 ### String-related functions that return a List
 
-- .split(_some_delimiter_) - returns a list based on the contents of
+- `.split(_some_delimiter_)` - returns a list based on the contents of
   the string, by splitting the string everywhere it finds the
   delimiter specified as the argument
 
@@ -136,9 +136,9 @@ functions](Strings#String_functions).
 
 ### Useful functions
 
-[List functions](More_Lists) that modify an existing List:
+[List functions](list-more.md) that modify an existing List:
 
-- .append(some_value) - adds the value as a new element at the end of
+- `.append(some_value)` - adds the value as a new element at the end of
   the list
 
 ## Example programs
@@ -165,7 +165,7 @@ folder:
 
 Read the entire contents of the file, and print them out.
 
-```
+```python
 #open a text file in read mode
 f = open("mydata.txt", "r")
 
@@ -180,7 +180,7 @@ print(theTextInTheFile)
 
 Remove the line break from the end of each file, and then print it out.
 
-```
+```python
 #open a text file in read mode
 f = open("mydata.txt", "r")
 
@@ -199,7 +199,7 @@ for line in f:
 Loop through each word in the file (assuming words are separated by
 spaces), and print it out.
 
-```
+```python
 #open a text file in read mode
 f = open("mydata.txt", "r")
 
@@ -223,7 +223,7 @@ spaces), and print out how many times a search term is found. For
 simplicity, this program does not account for punctuation, which would
 cause problems in this code.
 
-```
+```python
 #open a text file in read mode
 f = open("mydata.txt", "r")
 
@@ -260,7 +260,7 @@ capitalize a word we are searching for). Store the modified values in a
 two-dimensional list. Loop through this two-dimensional list and output
 the modified values to a file.
 
-```
+```python
 #####################################################
 #PART 1 - SCRAPE THE DATA FROM A CSV FILE
 #####################################################
@@ -319,17 +319,19 @@ f.close()
 
 ### Data file
 
-These programs assume you have a text file named \"data.txt\" in the
+These programs assume you have a text file named "`data.txt`" in the
 same folder as your Python program. The data.txt file stores student
 grades as comma separated values (CSV format). This type of format is
 commonly used by spreadsheet programs like Microsoft Excel.
 
 _Example data file_
 
-This is our example \"data.txt\" file in CSV format.
+This is our example \"`data.txt`\" file in CSV format.
 
+```
 Adam,85 Mark,22 Erica,100 Kaitlin,98 Spencer,69 John,88 Wilson,95
 Spencer,49 Faith,89 Andrew,90 Celia,90 Mike,90
+```
 
 ### Writing to a file
 
@@ -338,7 +340,7 @@ This program allows users to append new grades to the data.txt file.
 Note that this program exhibits a bug if the user enters \"exit\" in
 response to the first question.
 
-```
+```python
 #this program allows us to append student grades to an existing data.txt file
 
 #flag to indicate whether we opened the file or not
@@ -378,7 +380,7 @@ if isFileOpen:
 This program reads the grades from the data.txt file and outputs the
 average grade for all students found in the file.
 
-```
+```python
 #this program opens a file named "data.txt" that holds a student grade in each line in the format <name>,<grade>
 #the program outputs the average grade of all students
 

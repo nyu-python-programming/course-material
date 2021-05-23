@@ -5,43 +5,26 @@
 - sequences contain multiple pieces of data within a single variable
 - strings, lists, and ranges are all types of sequences, dictionaries
   are not
-- you can access parts of a sequence using indices:
-  `<span>`
-- you can slice sequences:
-  `<span>`
-- strings hold sequences of text characters:
-  `<span>`x =
-  \'something\'`</font>`
-- lists hold sequences of any data type:
-  `<span>`x = \[None, 1,
-  \"two\", 3.0, False\]`</font>`
-- lists can even hold a sequence of lists:
-  `<span>`x = \[ \[0, 1, 2\],
-  \[\"a\", \"bad\", \"doctor\"\] \]`</font>`
-- lists holding a sequence of lists are often referred to as
-  multidimensional lists
-- multidimensional list elements can be accessed with double indices:
-  `<span>`x\[1\]\[2\] =
-  \'actor\'`</font>`
-- the range() function returns a sort of sequence of integers:
-  `<span>`for i in
-  range(10):`<span>`
-- `<span>`lists
-  have built-in modifier functions that \'belong\' to them:
-  `<span>`
-- len(x) function returns the number of elements in a sequence of any
-  type
-- string is immutable - you cannot just change it. You have to
-  assign it to something else
+- you can access parts of a sequence using indices: `x[52]`
+- you can slice sequences: `x[15:43]`
+- strings hold sequences of text characters: `x = 'something'`
+- lists hold sequences of any data type: `x = [None, 1, "two", 3.0, False]`
+- lists can even hold a sequence of lists: `x = [ [0, 1, 2], ["a", "bad", "doctor"] ]`
+- lists holding a sequence of lists are often referred to as multidimensional lists
+- multidimensional list elements can be accessed with double indices: `x[1][2] = 'actor'`
+- the range() function returns a sort of sequence of integers: `for i in range(10):'`
+- lists have built-in modifier functions that \'belong\' to them: `x.reverse()`
+- `len(x)` function returns the number of elements in a sequence of any type
+- string is immutable -> you cannot just change it. You have to assign it to something else
 
-```
+```python
 # this will just print out lowercase foo
 x = "foo"
 x.upper()
 print(x)
 ```
 
-```
+```python
 # this will print out uppercase foo
 x = "foo"
 x = x.upper()
@@ -54,75 +37,44 @@ print(x)
   associative array
 - are mutable, meaning you can change what\'s in after you\'ve created
   them
-- similar to lists, dictionaries can be indexed:
-  `<span>`
-- unlike lists, dictionaries can have any immutable data type as
-  indices:
-  `<span>`
-- (lists and dictionaries are mutable; Integers, Floats, Strings,
-  Booleans, and NoneTypes are immutable; tuples are also immutable,
-  but we haven\'t covered those)
-- elements in a dictionary (a.k.a. members) are often referred to as
-  key-\>value pairs
-- the key is the index. the value is the value that the index points
-  to
+- similar to lists, dictionaries can be indexed: `x[1]`
+- unlike lists, dictionaries can have any immutable data type as indices: `x['color']`
+- (lists and dictionaries are mutable; Integers, Floats, Strings, Booleans, and NoneTypes are immutable; tuples are also immutable, but we haven\'t covered those)
+- elements in a dictionary (a.k.a. members) are often referred to as key->value pairs
+- the key is the index. the value is the value that the index points to
 
-`<span>`\
-` ``<span>`\
-` ``<span>`\
-` ``<span>`\
-` ``<span>`\
-` ``<span>`
+```python
+cat = {
+  'breed' : 'sphynx',
+  'color' : 'grey',
+  'age' : 14,
+  'name' : 'susha'
+}
+```
 
-- accessing key-\>value pairs:
-  `<span>`x\[\'name\'\]
-  `</font>`-\>
-  `<span>`
-- overwriting key-\>value pairs:
-  `<span>`x\[\'age\'\] =
-  13`</font>`
-- creating new key-\>value pairs:
-  `<span>`x\[\'gender\'\] =
-  \'female\'`</font>`
+- accessing key->value pairs: `x['name'] -> 'susha'`
+- overwriting key->value pairs: `x['age'] = 13`
+- creating new key->value pairs: `x['gender'] = 'female'`
 
 ## Some notable similarities and differences between dictionaries and lists
 
-- lists require that indices be integers; dictionaries do not:
-  `<span>`
+- lists require that indices be integers; dictionaries do not: `x[15]`
 - lists are sequences; dictionaries are not
 - lists can be sliced; dictionaries can not
-- appending to lists requires the list object\'s append() function;
-  appending to dictionaries does not:
-  - `<span>`x = {\'title\':
-    \'On The Exactitude of Science\', \'author\': \'Jorge Luis
-    Borges\'}`</font>`
-  - `<span>`x\[\"year\"\] =
-    1946 `<span>`\#appending a
-    new member to the
-    dictionary`</font>`
-- like lists and other mutable types, modifying a dictionary also
-  modifies any aliased variables that point to that same dictionary in
-  memory:
-  - `<span>`x = {0: \'first\',
-    1: \'second\'}
-    `<span>`\#the original
-    dictionary`</font>`
-  - `<span>`y = x
-    `<span>`\#create a newly
-    assigned variable that is an alias to the dictionary in
-    memory`</font>`
-  - `<span>`x\[0\] = \'the new
-    first value\'
-    `<span>`\#modifying the
-    original
-    dictionary`</font>`
-  - y\[0\] now also points to \'the new first value\'
+- appending to lists requires the list object\'s append() function; appending to dictionaries does not:
+  - `x = {'title': 'On The Exactitude of Science', 'author': 'Jorge Luis Borges'}`
+  - `x["year"] = 1946` #appending a new member to the dictionary
+- like lists and other mutable types, modifying a dictionary also modifies any aliased variables that point to that same dictionary in memory:
+  - `x = {0: 'first', 1: 'second'}` #the original dictionary
+  - `y = x` #create a newly assigned variable that is an alias to the dictionary in memory
+  - `x[0] = 'the new first value'` #modifying the original dictionary
+  - `y[0]` now also points to 'the new first value'
 
 ## Examples
 
 ### Basic list usage
 
-```
+```python
 #this is how you use lists...
 cat = [
     'sphynx',
@@ -139,7 +91,7 @@ print("The " + typeOfCat + " is " + str(ageOfCat) + " old.")
 
 ### Basic dictionary usage
 
-```
+```python
 #this is how you use dictionaries
 cat = {
     'type': 'sphynx',
@@ -157,7 +109,7 @@ print("The " + typeOfCat + " is " + str(ageOfCat) + " old.")
 
 **cat_data.py**
 
-```
+```python
 #list of cats
 #each cat is a dictionary
 #so this is a list that contains lots of dictionaries
@@ -207,9 +159,9 @@ cats.append({
 })
 ```
 
-**cat_adoption_system.py**
+**cat_adoption_system.py**:
 
-```
+```python
 #the imported file creates a list of cats
 from cat_data import *
 
@@ -246,13 +198,13 @@ for cat in shoppingCart:
 
 ### More miscellaneous examples
 
-```
+```python
 # This one will print out 6 first characters
 myfavoriteFood = "potato skins"
 mySmallerFood = myFavoriteFood[0:6]
 ```
 
-```
+```python
 x = [
     "potatoes": "young",
     "tomatoes":"plum",
@@ -266,7 +218,7 @@ for k,v in x.items():
     print(k)
 ```
 
-```
+```python
 #List Review
 shoppingList =[
     "tomatoes",
@@ -279,7 +231,7 @@ smallerList = shoppingList [0:4]
 smallerList.sort() #alphabetizing
 ```
 
-```
+```python
 x = {
     "potatoes": "young",
     "tomatoes": "plum",
@@ -291,7 +243,7 @@ for thing in x:
     print(thing) # This will print out the KEYS only
 ```
 
-```
+```python
 x = {
     "potatoes": "young",
     "tomatoes": "plum",
@@ -304,68 +256,70 @@ print(x.values())#gives you values only
 print(x.items())#gives you both keys and values
 ```
 
+```python
+x = {
+    "potatoes": "young",
+    "tomatoes": "plum",
+    "arugula": "baby",
+    "milk": "vitamin AD organic"
+    }
+
+#loop through all the keys only
+for k in x.keys():
+    print(k) #looping keys
+
+#loop through all the values only
+for v in x.values():
+    print(v) #looping value
+
+#loop through all the key/value pairs
+for k,v in x.items():
+    print(k,v) #looping through both
 ```
-    x = {
-        "potatoes": "young",
-        "tomatoes": "plum",
-        "arugula": "baby",
-        "milk": "vitamin AD organic"
-        }
 
-    #loop through all the keys only
-    for k in x.keys():
-        print(k) #looping keys
+```python
+x = {
+    "potatoes": "young",
+    "tomatoes": "plum",
+    "arugula": "baby",
+    "milk": "vitamin AD organic"
+    }
 
-    #loop through all the values only
-    for v in x.values():
-        print(v) #looping value
+#dictionaries are mutable data types - so this updates that the arugula is old not baby
+x["arugula"] = "withered"
 
-    #loop through all the key/value pairs
-    for k,v in x.items():
-        print(k,v) #looping through both
+#loop through all the key/value pairs
+for k,v in x.items():
+    print(k,v)
+```
 
+```python
+#values of any immutable data type can be a key
+x = {
+    "foo": "hello",
+    True: "goodbye",
+    1.00: True,
+    "hi": 1.2,
+    None: ['a','b','c'],
+    5: {'foo':'bar'}
+    }
 
-    x = {
-        "potatoes": "young",
-        "tomatoes": "plum",
-        "arugula": "baby",
-        "milk": "vitamin AD organic"
-        }
+print(x[None])
+```
 
-    #dictionaries are mutable data types - so this updates that the arugula is old not baby
-    x["arugula"] = "withered"
-
-    #loop through all the key/value pairs
-    for k,v in x.items():
-        print(k,v)
-
-
-    #values of any immutable data type can be a key
-    x = {
-        "foo": "hello",
-        True: "goodbye",
-        1.00: True,
-        "hi": 1.2,
-        None: ['a','b','c'],
-        5: {'foo':'bar'}
-        }
-
-    print(x[None])
-
-
-
-    grades = {}
-    askForMore = True
-    while askForMore:
-        name = input("Please enter a student name: ") #key
-        grade = input("What's their grade? ") #value
-        grades[name] = grade
-        #grades[key] = value
-        another = input("Do you want to add in another student? ")
-        if another.lower() == 'n' or another.lower() == "no":
-            askForMore = False
-    #allow the user to look up the grade that corresponds with a particular student
-    name = input("Whose grade would you like to look up? ")
-    print(name + "'s grade is ", grades[name])
-    #if you use the same name twice, it'll give you the latest input
+```python
+grades = {}
+askForMore = True
+while askForMore:
+    name = input("Please enter a student name: ") #key
+    grade = input("What's their grade? ") #value
+    grades[name] = grade
+    #grades[key] = value
+    another = input("Do you want to add in another student? ")
+    if another.lower() == 'n' or another.lower() == "no":
+        askForMore = False
+#allow the user to look up the grade that corresponds with a particular student
+name = input("Whose grade would you like to look up? ")
+print(name + "'s grade is ", grades[name])
+#if you use the same name twice, it'll give you the latest input
 ```
