@@ -1,4 +1,4 @@
-1.  Etiquette
+# Etiquette
 
 This document is a set of Frequently Asked Questions that relate to
 etiquette and other matters involving the relationship among students,

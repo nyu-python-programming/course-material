@@ -10,6 +10,7 @@ Before going any further, note that we will not cover the following:
 - [Computer music and digital audio](https://knowledge.kitchen/Digital_Audio)
 - [Databases](https://knowledge.kitchen/:Category:Database_Design)
 - [Interactive product design](https://knowledge.kitchen/:Category:Physical_Computing)
+- [Agile software development](https://knowledge.kitchen/Agile_Software_Development_Course_Schedule)
 
 ## Getting help
 
