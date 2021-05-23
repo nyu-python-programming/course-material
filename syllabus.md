@@ -80,45 +80,23 @@ Grades are weighted as follows:
 
 ### Submitting
 
-All assignments are submitted by pushing code to GitHub using Git.
+All assignments will be submitted by pushing code to GitHub.
+
+- we will cover how to push code to GitHub
+- all file names must follow standard [naming conventions](basic-computer-concepts.md#File_names).
+  - No capital letters
+  - No spaces
+  - No special characters except the underscore `_` character and the dot `.` before the extension.
+  - **We will not accept files that do not follow these rules.**
 
 ### Late penalty
 
-For every 24 hours that an assignment is late, we will apply a 10% penalty on the grade, up to a maximum penalty of 30%. After 72 hours, we will no longer accept the assignment.
+- assignments are due before class on the due date indicated on the schedule
+- for every 24 hours that an assignment is late, we will apply a 10% penalty on the grade, up to a maximum penalty of 30%.
+- after 72 hours, we will no longer accept the assignment.
 
 ### Extensions
 
-- You are automatically granted 2 late assignment extensions of up to 1 week late each, with the exception that all assignments must be submitted before the last day of regular class before the final exam.
+- You are automatically granted 2 late assignment extensions of up to 3 days late each, with the exception that all assignments must be submitted before the last day of regular classes before the final exam
 - When submitting an assignment for which you would like to use one of these automatic extensions, you must notify the grader that you are using the extension, otherwise your assignment will be rejected.
-- Do not ask for any extensions from the professor
-
-### Assignment filenames
-
-If you are not familiar with [naming files](Basic_computer_concepts#File_names) and creating [zip files](Basic_computer_concepts#Compressed_files), [get help](#Tutoring).
-
-To clarify how we require assignment files to be named in this course,
-please peruse the following examples....
-
-- Example 1: If my name were _Foo Barstein_, and I were submitting
-  Assignment \#1, my python file should be named
-  _barstein_foo_assignment1.py_. This python file should be compressed
-  into a zip file named _barstein_foo_assignment1.zip_. This zip file
-  should be submitted with the message, _Barstein, Foo: Assignment \#1_.
-
-- Example 2: If my name were _Jennifer Fergusson_, and I were
-  submitting Assignment \#2 in two parts, my python files should be named
-  _fergusson_jennifer_assignment2_part1.py_ and
-  _fergusson_jennifer_assignment2_part2.py_. These python files should be
-  compressed into zip file named _fergusson_jennifer_assignment2.zip_.
-  This zip file should be submitted with the message, _Fergusson,
-  Jennifer: Assignment \#2_
-
-**Other filename requirements:**
-
-- No capital letters
-- No spaces
-- No special characters except the underscore `_` character and the dot `.` before the extension.
-
-This naming convention is standard among savvy computer users to avoid various complications.
-
-**We will not accept files that do not follow these rules.**
+- **Do not ask for any extensions from the professor or graders**
