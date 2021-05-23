@@ -1,3 +1,5 @@
+# Set Up Python Development Environment
+
 This document outlines the steps necessary to set up your personal
 computer to be suitable for developing Python programs. We will install
 and set up:
