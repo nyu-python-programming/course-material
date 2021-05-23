@@ -31,7 +31,7 @@
   `<span>`
 - len(x) function returns the number of elements in a sequence of any
   type
-- string is immutable \--\> you cannot just change it. You have to
+- string is immutable - you cannot just change it. You have to
   assign it to something else
 
 ```
