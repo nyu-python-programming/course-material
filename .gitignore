@@ -1,53 +1,34 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+# Compiled python files
+*.py[oc]
 *$py.class
 
-# C extensions
-*.so
+# python artifacts
+__pycache__/
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# virtual environments
+# Environments
+.env
+.env/
+.venv
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# pyenv
+.python-version
 
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
 .hypothesis/
 .pytest_cache/
 
@@ -55,11 +36,19 @@ coverage.xml
 *.mo
 *.pot
 
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
 # Django stuff:
 *.log
+*.pot
 local_settings.py
 db.sqlite3
-db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -68,62 +57,77 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-# Sphinx documentation
-docs/_build/
-
 # PyBuilder
 target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
 # Spyder project settings
 .spyderproject
 .spyproject
 
-# Rope project settings
-.ropeproject
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Sphinx documentation
+docs/_build/
 
 # mkdocs documentation
 /site
 
 # mypy
 .mypy_cache/
-.dmypy.json
-dmypy.json
 
-# Pyre type checker
-.pyre/
+# gedit and emacs backup files
+*~
+
+# Notepad++ files
+nppBackup/
+
+# Special dirs and files
+build/
+dist/
+bin/
+spyder.egg-info/
+Thumbs.db
+desktop.ini
+.DS_Store/
+spyder_crash.log
+.DS_Store
+.spyproject
+.idea/
+.cache
+.coverage*
+MANIFEST
+
+.installed.cfg
+develop-eggs
+downloads
+eggs
+parts
+src/*.egg-info
+lib
+lib64
+
+# git .orig files
+*.orig
+
+# log files
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Rope project folders
+.ropeproject/
+.vscode/
+result.xml
+
+# Pylint dirs/files
+.pylint.d/
+
+# Ignore setuptools development files in the PyLS subrepo
+external-deps/python-language-server/python_language_server.egg-info/
