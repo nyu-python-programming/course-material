@@ -76,7 +76,7 @@ on the side of formality.
 #### I\'m trying to send an attachment in an email or chat, but it isn\'t working. What do I do?
 
 Upload the attachment to a public web server, such as
-[i6](Transfer_files_to_the_i6_web_server "wikilink"), your own web
+[i6](Transfer_files_to_the_i6_web_server), your own web
 server, or a cloud hosting service such as
 [Box.com](https://nyu.box.com/), Dropbox, or Google Drive, and just send
 us the link to it.
@@ -105,7 +105,7 @@ there is no such information on the syllabus, speak with the professor.
 
 Why would you do this? Sending a screenshot is proof of nothing except,
 perhaps, a lack of critical thinking and lack of ability in image
-editing software like [Photoshop](:Category:Photoshop "wikilink").
+editing software like [Photoshop](:Category:Photoshop).
 
 ### Grading
 
@@ -116,7 +116,7 @@ professor.
 
 #### The grade I received is wrong. Should i email the professor?
 
-See [above](#Should_I_email_the_professor? "wikilink") for email
+See [above](#Should_I_email_the_professor?) for email
 etiquette.
 
 #### Only one line of code was incorrect in my assignment. Why did you take off so many points?
@@ -204,7 +204,7 @@ probably not perfect for anyone.
 Come to class
 
 - You can\'t realistically expect to do well in a course if you don\'t
-  [attend](#Attendance "wikilink") and know what is discussed.
+  [attend](#Attendance) and know what is discussed.
 
 Plan to spend significant time alone doing work for the course
 
@@ -226,7 +226,7 @@ Don\'t move ahead until you\'ve covered your behind:
 Come to class and pay attention:
 
 - Print out the class notes, if available, and bring them to class
-- Write [your own notes](#Notes "wikilink") on this paper.
+- Write [your own notes](#Notes) on this paper.
 - Turn off your phone in class and when studying
 - Turn off your computer in class and when studying
 - [Get out of the habit of Googling
@@ -258,23 +258,23 @@ professor if you would like to talk.
 
 Not unless the professor announces any special arrangement to the entire
 class. Try to [do better next
-time](#I_did_badly_on_the_exam._How_can_I_do_better_next_time.3F "wikilink").
+time](#I_did_badly_on_the_exam._How_can_I_do_better_next_time.3F).
 Please do not ask for special treatment - that would be unfair to
 others.
 
 ### I studied really hard for the exam. Shouldn\'t I get some credit for that?
 
 See the [answer to the question about grading based on
-effort](#I_spent_a_lot_of_time_and_effort_on_this_work._Can.27t_I_get_some_credit_for_that.3F "wikilink").
+effort](#I_spent_a_lot_of_time_and_effort_on_this_work._Can.27t_I_get_some_credit_for_that.3F).
 
 ### I did badly on the exam. How can I do better next time?
 
-Try to [improve your study habits](#How_should_I_study? "wikilink")
+Try to [improve your study habits](#How_should_I_study?)
 
 ### I missed the exam, when is the make-up exam?
 
 There is no make-up exam. You will probably [not do well in the
-course](#I'm_going_to_fail_the_course._What_should_I_do? "wikilink").
+course](#I'm_going_to_fail_the_course._What_should_I_do?).
 Talk to the professor in person.
 
 ## Grading
@@ -348,7 +348,7 @@ whole time? You might as well watch a video.
 #### Should I look at my phone during class?
 
 A phone is a small computer. See
-[above](#Is_it_a_good_idea_to_use_my_computer_in_class? "wikilink")
+[above](#Is_it_a_good_idea_to_use_my_computer_in_class?)
 
 ### Notes
 
@@ -382,7 +382,7 @@ readings and lecture notes are readily available for you to peruse.
 If you have good discipline, maybe you can do well by just reading
 those\... but maybe not. Maybe other students will tell you what you
 missed\... but maybe not. [People who come to
-class](#Should_I_come_to_class.3F "wikilink") tend to do better.
+class](#Should_I_come_to_class.3F) tend to do better.
 
 It is generally considered from impolite to rude to ask a professor what
 you missed after you skip class, unless your absence has a very good

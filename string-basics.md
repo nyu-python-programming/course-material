@@ -493,10 +493,10 @@ contents. These functions all return booleans:
 - x.format() with named keywords
 - x.format() with indices
 - see [string formatting
-  examples](<Python_string_format()_function_examples> "wikilink")
+  examples](<Python_string_format()_function_examples>)
 
 ### String functions that split strings into lists
 
 - x.split(y)
 - x.rsplit(y)
-- [see more about Lists](Lists "wikilink")
+- [see more about Lists](Lists)

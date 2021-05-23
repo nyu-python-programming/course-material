@@ -1,11 +1,11 @@
 # Raw strings
 
 Raw strings are just another way to write string
-[literals](Variables,_literals,_and_expressions#Variables_vs._Literals "wikilink").
+[literals](Variables,_literals,_and_expressions#Variables_vs._Literals).
 
 ## Regular string literals
 
-As [you surely know already](Variables_and_literals "wikilink"), Python
+As [you surely know already](Variables_and_literals), Python
 gives lots of ways to write string literals:
 
 ### Using single quotes
@@ -85,7 +85,7 @@ readable.
 
 ## Regular expressions are more easily written with raw string literals
 
-[Regular expressions](Regular_expressions "wikilink") usually contain a
+[Regular expressions](Regular_expressions) usually contain a
 lot of backslashes. When using Python\'s [re
 module](https://docs.python.org/3.5/library/re.html), regular
 expressions are represented as strings. So, like all strings with a lot

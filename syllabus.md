@@ -1,24 +1,28 @@
-### Topics not covered in this course
+# Syllabus
 
-- Desktop and [mobile app development](https://knowledge.kitchen/Android_mobile_app_development "wikilink")
-- [Web site development](https://knowledge.kitchen/:Category:_Web_Development "wikilink")
-- [Game design](https://knowledge.kitchen/Interactive_programming_with_Processing "wikilink")
-- [Computer music and digital audio](https://knowledge.kitchen/Digital_Audio "wikilink")
-- [Databases](https://knowledge.kitchen/:Category:Database_Design "wikilink")
-- [Interactive product design](https://knowledge.kitchen/:Category:Physical_Computing "wikilink")
+## Topics not covered in this course
+
+Before going any further, note that we will not cover the following:
+
+- Desktop and [mobile app development](https://knowledge.kitchen/Android_mobile_app_development)
+- [Web site development](https://knowledge.kitchen/:Category:_Web_Development)
+- [Game design](https://knowledge.kitchen/Interactive_programming_with_Processing)
+- [Computer music and digital audio](https://knowledge.kitchen/Digital_Audio)
+- [Databases](https://knowledge.kitchen/:Category:Database_Design)
+- [Interactive product design](https://knowledge.kitchen/:Category:Physical_Computing)
 
 ## Getting help
 
 ### FAQ
 
-Students are expected to consult the [Student FAQ](University_Student_Etiquette_Frequently_Asked_Questions "wikilink") prior to asking questions of the tutors, professor, or other students. This allows us to focus our time on questions of greater significance.
+Students are expected to consult the [Student Etiquette FAQ](etiquette.md) prior to asking questions of the tutors, professor, or other students. This allows us to focus our time on questions of greater significance.
 
 ### Slack
 
 Our course uses Slack as its main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer.
 
 - You are not required to supply any personally-identifiable information when signing up for Slack. Discuss with the professor if you have concerns or questions about privacy.
-- You must create your own _private_ channel in Slack and invite our graders to join it - name this channel `assgn_fb1258`, where `fb1258` is replaced with your own NYU Net ID.
+- **You must create your own _private_ channel in Slack** and invite our graders to join it - name this channel `assgn_fb1258`, where `fb1258` is replaced with your own NYU Net ID.
 
 ### Tutoring
 
@@ -41,31 +45,26 @@ Academic support is also available through the [University Learning Center](http
 
 ## Books
 
-Reserved copies are available for use in Bobst Library at the Reserves
-Desk, two floors down from the main lobby
+Reserved copies are available for use in Bobst Library at the Reserves Desk, two floors down from the main lobby
 
 ### Required
 
-We do not teach directly from any textbook. If you do purchase a
-textbook, this is the official textbook for this course:
-
-Starting Out with Python (4th Edition)
-
-- by Tony Gaddis - Publisher: Addison-Wesley; 4 edition
-
 ### Optional
+
+We do not teach directly from any textbook. If you do purchase a textbook, this is a 'regular' textbook for this course:
+
+- Starting Out with Python (4th Edition), by Tony Gaddis - Publisher: Addison-Wesley; 4th edition
+
+Other good books:
 
 - [How to Think Like a Computer Scientist: Learning with Python 3](http://openbookproject.net/thinkcs/python/english3e/)
 - [Automate The Boring Stuff](https://automatetheboringstuff.com/)
 - [A Byte of Python - Swaroop C H.](http://www.swaroopch.com/notes/Python)
 - [Companion Website to accompany Starting Out with Python, Third Edition by Tony Gaddis](http://wps.pearsoned.com/ecs_gaddis_sowpython_3/)
-- [MyProgrammingLab Online Tutorial Site](http://www.myprogramminglab.com)
-  - If you wish to use MyProgrammingLab, you may purchase it along with the "Starting out with Python" textbook from the NYU bookstore. You can also purchase access to this site directly by visiting www.myprogramminglab.com and registering as a "student" - just follow the prompts and make sure to purchase access for the "Starting out with Python" programming lab.`\
-  - If you purchase it and it asks you for a "Section Access Code", use the following: NEWYOR-9976-0`
 
 ## Software
 
-In this course, we are learning how to program Python version 3.x. Instructions for setting up the Python programming environment are [here](setup-python.md).
+In this course, we are learning how to program Python version 3.x. Instructions for setting up the Python programming environment are [here](setup-python-vscode.md).
 
 ## Grading
 
@@ -94,7 +93,7 @@ For every 24 hours that an assignment is late, we will apply a 10% penalty on th
 
 ### Assignment filenames
 
-If you are not familiar with [naming files](Basic_computer_concepts#File_names "wikilink") and creating [zip files](Basic_computer_concepts#Compressed_files "wikilink"), [get help](#Tutoring "wikilink").
+If you are not familiar with [naming files](Basic_computer_concepts#File_names) and creating [zip files](Basic_computer_concepts#Compressed_files), [get help](#Tutoring).
 
 To clarify how we require assignment files to be named in this course,
 please peruse the following examples....

@@ -96,7 +96,7 @@ print(z[2]) # prints from z's copy of the original list -> "lock"
 
 ## More about lists
 
-Click to read [more about lists](More_Lists "wikilink"), including List
+Click to read [more about lists](More_Lists), including List
 functions and operations.
 
 ## Examples

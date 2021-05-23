@@ -2,7 +2,7 @@
 
 ## For loops
 
-[For loops](For_loops "wikilink") iterate through a finite sequence of
+[For loops](For_loops) iterate through a finite sequence of
 values.
 
 - finite loops
@@ -25,7 +25,7 @@ Iterate through strings, lists, ranges, or files:
 
 ## While loops
 
-[While loops](While_loops "wikilink") repeat a potentially unfinite
+[While loops](While_loops) repeat a potentially unfinite
 number of iterations.
 
 - indefinite loops

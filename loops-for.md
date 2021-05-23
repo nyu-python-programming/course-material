@@ -1,6 +1,6 @@
 # For loops
 
-Unlike [while loops](While_loops "wikilink"), which are most often used
+Unlike [while loops](While_loops), which are most often used
 to repeat the execution of a block of code an indefinite number of
 times, for loops are usually used to execute a block of code a fixed
 finite number of times. Each repetition is called an iteration.
@@ -12,7 +12,7 @@ print the numbers from 5 to 10, inclusive.
 
 ### Python example
 
-This example uses the [range function](#Ranges_in_Python "wikilink") to
+This example uses the [range function](#Ranges_in_Python) to
 generate the list of values to loop through.
 
 ```
@@ -111,7 +111,7 @@ for (int i = 0; i < list_of_values.length; i++) {
 ```
 
 Java has an \"enhanced\" for loop that can loop through elements in an
-array with more [syntactic sugar](wikipedia:Syntactic_sugar "wikilink"):
+array with more [syntactic sugar](wikipedia:Syntactic_sugar):
 
 ```
 String[] list_of_values = { "in", "a", "sieve", "they", "went", "to", "sea" };

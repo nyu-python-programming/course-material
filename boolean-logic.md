@@ -3,13 +3,13 @@
 ## Boolean values
 
 In Boolean logic, named after [George
-Boole](wikipedia:George_Boole "wikilink"), any given expression will
+Boole](wikipedia:George_Boole), any given expression will
 ultimately have only one of two values: true or false.
 
 ## Boolean literals
 
 There are [Boolean
-literals](Variables,_literals,_and_expressions#Boolean_literals "wikilink")
+literals](Variables,_literals,_and_expressions#Boolean_literals)
 to represent each of these values in code.
 
 ### Python

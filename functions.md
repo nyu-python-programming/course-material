@@ -1,6 +1,6 @@
 # Functions
 
-Whereas [variables](Variables_and_literals "wikilink") store a piece of
+Whereas [variables](Variables_and_literals) store a piece of
 data in memory,
 [functions](<http://en.wikipedia.org/wiki/Function_(computer_science)>)
 store a series of commands in memory to be run at a later time. Think of
@@ -329,4 +329,4 @@ and so on.
 Like variable names, function names must not have any spaces or special
 characters in them, although they can use the underscore ("\_")
 character. They also often use [lower camel case or upper camel case
-conventions](Variables,_literals,_and_expressions#Common_variable_naming_conventions "wikilink").
+conventions](Variables,_literals,_and_expressions#Common_variable_naming_conventions).

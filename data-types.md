@@ -33,7 +33,7 @@ Regular text is usually represented by programming languages as a
 \"string of characters\" or \"string\" for short.
 
 Most programming languages require that quotation marks be placed around
-string [literals](Variables,_literals,_and_expressions "wikilink") to
+string [literals](Variables,_literals,_and_expressions) to
 differentiate them from other keywords in the language. Whether to use
 double or single quotes for this is dependent on which language you are
 using.
@@ -46,7 +46,7 @@ Examples:
 - \"12.2\" \#note that most languages will treat this as a string, not
   a float because of the quotes
 
-See more on [Strings](Strings "wikilink")
+See more on [Strings](Strings)
 
 ### Booleans
 
@@ -63,7 +63,7 @@ Examples of Boolean values in Java:
 - true
 - false
 
-See more on [Boolean logic](Boolean_logic_primitives "wikilink")
+See more on [Boolean logic](Boolean_logic_primitives)
 
 ## Aggregate data structures
 
@@ -73,14 +73,14 @@ more \"high-level\".
 
 ### Lists and arrays
 
-[Lists](Lists "wikilink"), also known as arrays, are groups of single
+[Lists](Lists), also known as arrays, are groups of single
 values.
 
 - e.g. \"money\", \"wealth\", and \"peanut butter\"
 
 ### Dictionaries, associative arrays, and hash maps
 
-[Dictionaries](Dictionaries "wikilink"), associative arrays, and hash
+[Dictionaries](Dictionaries), associative arrays, and hash
 tables, are all data structures that hold a group of key/value pairs.
 
 - e.g. \"my_name\": \"Inego Montoya\", \"reason_here\": \"to kill your
@@ -119,7 +119,7 @@ Imagine you have a variable x
 
 `x = "4"`
 
-Python [built-in functions](Modules_in_Python#built-ins "wikilink"):
+Python [built-in functions](Modules_in_Python#built-ins):
 
 - int(x) -- converts a float or string to an integer
 - float(x) -- converts an integer or string to a float

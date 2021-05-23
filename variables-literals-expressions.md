@@ -57,7 +57,7 @@ the formula, y=5+1, which means y=6.
 
 In most programming languages, unlike algebra, not all variables hold
 numbers. Some can hold text or more complicated [types of
-data](Data_types "wikilink"). For example, to hold some text in a
+data](Data_types). For example, to hold some text in a
 variable, we can do something like this:
 
 `my_name = "Inego Montoya"`
@@ -72,14 +72,14 @@ You remember that \"name\" is a variable that refers to the name,
 `introduction = "Hello, my name is " + "Inego Montoya" + "."`
 
 which, if you use the plus sign to
-[concatenate](Strings#String_concatenation_operators "wikilink") the two
+[concatenate](Strings#String_concatenation_operators) the two
 bits of text, means that:
 
 `introduction = "Hello, my name is Inego Montoya."`
 
 So here we have examples that deal with variables that refer to textual
 data, not numbers. In programming parlance, variables, like this, that
-hold text are called \"[strings](Strings "wikilink")\", as in a string
+hold text are called \"[strings](Strings)\", as in a string
 of characters.
 
 ## Defining variables
@@ -321,7 +321,7 @@ results in one value:
 
 `5 + x`
 
-An expression may involve a call to a [function](Functinos "wikilink")
+An expression may involve a call to a [function](Functinos)
 that returns a single value:
 
 `do_something()`

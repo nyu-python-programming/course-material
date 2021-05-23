@@ -1,6 +1,6 @@
 # While loops
 
-Unlike [for loops](For_loops "wikilink"), which are used mostly to
+Unlike [for loops](For_loops), which are used mostly to
 repeat a block of code a finite number of times, while loops are most
 often used to execute a block of code an indefinite number of times.
 Each repetition is called an iteration.
@@ -122,7 +122,7 @@ while ($i < strlen($s)) {
 The following examples all repeat a print statement 5 times in order to
 output each of the following values: \'they\', \'sailed\', \'away\',
 \'in\', \'a\', \'sieve\', \'they\', \'did\' - these words are from the
-first line of [The Jumblies](The_Jumblies "wikilink"), by Edward Lear.
+first line of [The Jumblies](The_Jumblies), by Edward Lear.
 The algorithm is as follows:
 
 - start a counter at the value zero
@@ -244,7 +244,7 @@ while ($users_response != $correct_response) {
 
 The following examples ask the user to enter in numbers one at a time.
 Each new number is added to a [running
-total](wikipedia:Running_total "wikilink"), which is the sum of all
+total](wikipedia:Running_total), which is the sum of all
 numbers entered so far. The program keeps asking for numbers until the
 user types \'stop\'. The algorithm is as follows:
 

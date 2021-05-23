@@ -55,7 +55,7 @@ for line in f:
 
 ### Checking whether a file already exists
 
-Python\'s [os module](Modules_in_Python#OS_module "wikilink") contains
+Python\'s [os module](Modules_in_Python#OS_module) contains
 useful methods for checking whether any given file already exists in the
 file system.
 
@@ -95,7 +95,7 @@ f = codecs.open("data.csv", mode='r', encoding='utf-8')
 ## Strings in Python
 
 Python has lots of [useful String-related
-functions](Strings#String_functions "wikilink").
+functions](Strings#String_functions).
 
 ### String-related functions that return a String
 
@@ -136,7 +136,7 @@ functions](Strings#String_functions "wikilink").
 
 ### Useful functions
 
-[List functions](More_Lists "wikilink") that modify an existing List:
+[List functions](More_Lists) that modify an existing List:
 
 - .append(some_value) - adds the value as a new element at the end of
   the list

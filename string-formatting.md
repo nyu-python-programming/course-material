@@ -1,11 +1,11 @@
 # Formatting strings
 
-Examples of formatting [strings in Python](Strings "wikilink") using the
+Examples of formatting [strings in Python](Strings) using the
 built-in [string format()
 function](https://docs.python.org/3/library/string.html#format-examples).
 
 - The expected output of each example is displayed as a comment.
-- Note that the format [function](Functions "wikilink") always returns
+- Note that the format [function](Functions) always returns
   a string.
 
 ## The basic idea
@@ -81,7 +81,7 @@ left-aligned within 10 spaces:
 
 `x = format('Harry', '<20s')`\
 `y = format('$20', '<10s')`\
-`z = "{0}{1}".format(x, y) #`[` remember`` ``this `](#The_basic_idea "wikilink")`?!`\
+`z = "{0}{1}".format(x, y) #`[` remember`` ``this `](#The_basic_idea)`?!`\
 `print(z)`\
 `#'Harry $20 '`
 

@@ -376,7 +376,7 @@ Import the OS module:
 `import os`
 
 Get the [current working
-directory](Basic_computer_concepts#Current_working_directory "wikilink")
+directory](Basic_computer_concepts#Current_working_directory)
 where the current code file is located:
 
 `currentDirectory = os.getcwd()`
@@ -478,14 +478,14 @@ written in comma-separated values (CSV) format. CSV is the most common
 text file format for text data from spreadsheets or databases.
 
 See [examples of using the csv module to parse CSV files into
-Lists](Reading_and_parsing_CSV_files_in_Python#CSV_to_Lists "wikilink")
-and[Dictionaries](Reading_and_parsing_CSV_files_in_Python#CSV_to_Dictionaries "wikilink").
+Lists](Reading_and_parsing_CSV_files_in_Python#CSV_to_Lists)
+and[Dictionaries](Reading_and_parsing_CSV_files_in_Python#CSV_to_Dictionaries).
 
 ## Regular Expressions module
 
 Python, like most other high-level programming languages, provides
 support for Regular Expressions. The [re module is documented
-separately](Regular_expressions#Python_implementation "wikilink").
+separately](Regular_expressions#Python_implementation).
 
 ## UrlLib.Request module
 
@@ -518,7 +518,7 @@ to the console.
 
 Once an HTML document has been retrieved from the web, it can be easily
 parsed using HTML parser modules, such as [Beautiful
-Soup](#Beautiful_Soup "wikilink").
+Soup](#Beautiful_Soup).
 
 ### Parser example
 
