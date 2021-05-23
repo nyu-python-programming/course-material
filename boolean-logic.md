@@ -3,7 +3,7 @@
 ## Boolean values
 
 In Boolean logic, named after [George
-Boole](wikipedia:George_Boole), any given expression will
+Boole](https://wikipedia.org/George_Boole), any given expression will
 ultimately have only one of two values: true or false.
 
 ## Boolean literals

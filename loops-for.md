@@ -111,7 +111,7 @@ for (int i = 0; i < list_of_values.length; i++) {
 ```
 
 Java has an \"enhanced\" for loop that can loop through elements in an
-array with more [syntactic sugar](wikipedia:Syntactic_sugar):
+array with more [syntactic sugar](https://wikipedia.org/Syntactic_sugar):
 
 ```java
 String[] list_of_values = { "in", "a", "sieve", "they", "went", "to", "sea" };

@@ -236,7 +236,7 @@ while ($users_response != $correct_response) {
 
 ## Calculating a running total
 
-The following examples ask the user to enter in numbers one at a time. Each new number is added to a [running total](wikipedia:Running_total), which is the sum of all numbers entered so far. The program keeps asking for numbers until the user types \'stop\'. The algorithm is as follows:
+The following examples ask the user to enter in numbers one at a time. Each new number is added to a [running total](https://wikipedia.org/Running_total), which is the sum of all numbers entered so far. The program keeps asking for numbers until the user types \'stop\'. The algorithm is as follows:
 
 - start the total at zero
 - define the user\'s response as blank

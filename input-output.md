@@ -12,7 +12,7 @@ For simple programs, the input usually comes from the keyboard.
 
 #### Code example
 
-`wealth = input("How many `[` Dentalium`` ``shells `](wikipedia:Dentalium_shell)` do you have?")`
+`wealth = input("How many `[` Dentalium`` ``shells `](https://wikipedia.org/Dentalium_shell)` do you have?")`
 
 ## Sending output to the user
 
