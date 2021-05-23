@@ -79,7 +79,7 @@ bits of text, means that:
 
 So here we have examples that deal with variables that refer to textual
 data, not numbers. In programming parlance, variables, like this, that
-hold text are called \"[strings](Strings)\", as in a string
+hold text are called \"[strings](string-basics.md)\", as in a string
 of characters.
 
 ## Defining variables
@@ -141,22 +141,22 @@ variable or function names without spaces:
 
 Examples:
 
-- LuckyNumberFromUser
-- TheSecretToWealthAndHappiness
+- `LuckyNumberFromUser`
+- `TheSecretToWealthAndHappiness`
 
 ### Lower Camel Case
 
 Examples:
 
-- luckyNumberFromUser
-- theSecretToWealthAndHappiness
+- `luckyNumberFromUser`
+- `theSecretToWealthAndHappiness`
 
 ### Underscore
 
 Examples:
 
-- lucky_number_from_user
-- the_secret_to_wealth_and_happiness
+- `lucky_number_from_user`
+- `the_secret_to_wealth_and_happiness`
 
 ## Variables vs. Literals
 
@@ -181,7 +181,7 @@ the symbols 666:
 
 Variables are keywords that can refer to numbers:
 
-This example defines a variable named lucky_number that is set to refer
+This example defines a variable named `lucky_number` that is set to refer
 to the integer 4
 
 `lucky_number = 4`\
@@ -192,7 +192,7 @@ This example refers to the integer 4 value by writing lucky_number
 
 This example defines a variable named x that refers to the integer 100:
 
-`x = 100`\
+`x = 100`
 
 This example refers to the integer 100 value by writing x
 
@@ -321,7 +321,7 @@ results in one value:
 
 `5 + x`
 
-An expression may involve a call to a [function](Functinos)
+An expression may involve a call to a [function](functions.md)
 that returns a single value:
 
 `do_something()`
