@@ -29,10 +29,17 @@ Our course uses Slack as its main communication channel for announcements and di
 
 Tutors for this course are waiting to answer your every question via Zoom videoconferencing.
 
-Tutoring hours:
-
 - via [Zoom](https://nyu.zoom.us/j/96900434059)
-- check hours with @Prasoon and @Hemant on Slack
+- contact @Prasoon and @Hemant on Slack
+
+Hours (all times Eastern):
+
+- Monday:- 2 pm to 3 pm
+- Tuesday:- 10 am to 11 am
+- Wednesday:- 2 pm to 4 pm
+- Thursday:- 3 pm to 5 pm
+- Friday:- 10 am to 12 pm
+- Saturday:- 9 am to 11 am
 
 ### Additional tutoring resources
 
