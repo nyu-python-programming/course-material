@@ -43,7 +43,7 @@ AND requires that two expressions both be true in order for the entire
 expression to evaluate to true. In all other cases, the expression
 evaluates to false.
 
-Imagine the following phrase in code, \"If today is Monday **and** I
+Imagine the following phrase in code, \"If today is Tuesday **and** I
 work as a plumber, then I must go to work today.\"
 
 #### Python
