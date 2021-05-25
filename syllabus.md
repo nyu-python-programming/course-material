@@ -31,7 +31,8 @@ Tutors for this course are waiting to answer your every question via Zoom videoc
 
 Tutoring hours:
 
-- TBD
+- via [Zoom](https://nyu.zoom.us/j/96900434059)
+- check hours with @Prasoon and @Hemant on Slack
 
 ### Additional tutoring resources
 
