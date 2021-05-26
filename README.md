@@ -34,4 +34,4 @@
 
 ## Copyright
 
-All content herein is copyrighted, shared under the [GNU General Public License, Version 3](./LICENSE.md).
+All content herein is copyrighted, shared under the [GNU General Public License, Version 3](./LICENSE).
