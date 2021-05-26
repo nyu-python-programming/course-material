@@ -8,4 +8,4 @@ dog_age = str(dog_age) # convert to string, so we can concatenate it to other st
 
 message = "Your age in dog years is " + dog_age + "!" # concatenate three strings together
 
-print(message)
+print(message) # print the message

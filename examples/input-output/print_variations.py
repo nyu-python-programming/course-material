@@ -1,9 +1,9 @@
 message1 = "Hello, welcome to this class on Tuesday!"
-print(message1) # notice that a line break is printed by default
+print(message1) # notice that a line break is printed by default at the end of the sentence
 
 message2 = "Hello," # notice that there is no space after the comma
 message3 = "welcome to this class on Tuesday!"
-print(message2, message3) # notice that a line break is printed by default
+print(message2, message3) # notice that a space is added after message2 and a line break is printed at the end by default
 
 message4 = "Hello, " # notice that there IS a space after the comma
 message5 = "welcome to this class on Tuesday!"
