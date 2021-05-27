@@ -134,12 +134,12 @@ represent single characters in how a string is interpreted.
 
 Common escape characters:
 
-- \\n -- a newline (linefeed) character
-- \\r -- a return (carriage return) character
-- \\t -- a tab character
-- \\\' -- a single quote character
-- \\\" -- a double quote character
-- \\\\ -- a backslash character
+- `\n` -- a newline (linefeed) character
+- `\r` -- a return (carriage return) character
+- `\t` -- a tab character
+- `\'` -- a single quote character
+- `\"` -- a double quote character
+- `\\` -- a backslash character
 
 The following string represents the words hello and world, separated by
 a line break:
