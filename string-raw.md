@@ -83,7 +83,7 @@ In raw string literals, backslashes have no special meaning as an escape charact
 
 ```python
 #import Python's regular expressions module
-import regex
+import re
 
 #compile a regular expression... note the raw string literal that doesn't have its backslashes escaped
 p = re.compile(r'[Ee](\+|-)?[0-9]+')
