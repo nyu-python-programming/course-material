@@ -47,13 +47,13 @@ Let's take this function line-by-line. We\'ll refer to the Python version, but t
 def sayHello():
 ```
 
-This line of code declares that the following block of code will be a function by using the keyword "def". Then it defines the name of the function as "sayHello".
+This line of code declares that the following block of code will be a function by using the keyword `def`. Then it defines the name of the function as `sayHello`.
 
 ```python
     print("hello")
 ```
 
-This line of code calls the Python interpreter's built-in "print" function, which will automagically output a message with the word "hello" in it when it is run.
+This line of code calls the Python interpreter's built-in `print` function, which will automagically output a message with the word `"hello"` in it when it is run.
 
 Notice how the print command is indented in a few spaces in from the def command. This tells the interpreter, which is reading this code, that the print command is "inside" of the function. If it wasn't indented properly, the interpreter would not know which commands to store as part of the function.
 
@@ -91,11 +91,11 @@ sayHello();
 
 ### Explanation
 
-This would run all the statements in the function, which in this case simply results in the word "hello" being output.
+This would run all the statements in the function, which in this case simply results in the word `"hello"` being output.
 
 ## Passing arguments to functions
 
-Let's say we wanted to make the message that is output more customizable. For example, we want the message to have someone's name in it, such as "hello, Martha" or "hello, Juan", or "hello, Fausta."
+Let's say we wanted to make the message that is output more customizable. For example, we want the message to have someone's name in it, such as "hello, Martha" or `"hello, Juan"`, or `"hello, Fausta."`
 
 We want to be able to use this same function to say hello to all these people. How do we do it?
 
@@ -139,31 +139,31 @@ Here is what our function will look like:
 ### in Python
 
 ```python
-def sayHello(name) :
-    print("hello, " + name)
+def sayHello(person) :
+    print("hello, " + person)
 ```
 
 ### in Javascript
 
 ```javascript
-function sayHello(name) {
-  document.write("hello, " + name)
+function sayHello(person) {
+  document.write("hello, " + person)
 }
 ```
 
 ### in PHP
 
 ```php
-function sayHello(name) {
-    print("hello, " + name);
+function sayHello(person) {
+    print("hello, " + person);
 }
 ```
 
 ### in Java
 
 ```java
-public static void sayHello(name) {
-    System.out.println("hello, " + name);
+public static void sayHello(String person) {
+    System.out.println("hello, " + person);
 
 }
 ```
@@ -173,42 +173,42 @@ public static void sayHello(name) {
 This single function can say hello to just about anybody we tell it to. Let's take the Python version of this function line by line in order to understand:
 
 ```python
-def sayHello(name):
+def sayHello(person):
 ```
 
-This first line, known as the function signature, declares that we are defining a function named "sayHello" and that it accepts one parameter, which we call "person".
+This first line, known as the function signature, declares that we are defining a function named `sayHello` and that it accepts one parameter, which we call `person`.
 
 **Note:** Anytime you see words in between the parentheses of a function definition, they indicate parameters that the function accepts as input when it is called.
 
 ```python
-    print("hello, " + name)
+    print("hello, " + person)
 ```
 
-Here we are again using the interpreter's built-in "print" function in order to output a message. However, the message we are outputting is no longer just a simple "hello". The message we are outputting (i.e. the stuff between the parentheses of the print function call) is now:
+Here we are again using the interpreter's built-in `print` function in order to output a message. However, the message we are outputting is no longer just a simple `"hello"`. The message we are outputting (i.e. the stuff between the parentheses of the print function call) is now:
 
 ```python
-    "hello, " + name
+    "hello, " + person
 ```
 
-This takes the word "hello," and glues it to the name we will use as a parameter when we called the function. The word "hello", in this case, is a string literal, which we saw in the discussion on variables. You can tell this because it is text surrounded by quotes. The term "person" is a variable name, which you can tell because it is text not surrounded by quotes in the code.
+This takes the word `"hello, "` and glues it to the name we will use as a parameter when we called the function. The word `"hello, "`, in this case, is a string literal, which we saw in the discussion on variables. You can tell this because it is text surrounded by quotes. The term "person" is a variable name, which you can tell because it is text not surrounded by quotes in the code.
 
-So the word "hello" is concatenated with, or glued onto, whatever word is stored in the parameter variable named "person".
+So the word `"hello, "` is concatenated with, or glued onto, whatever word is stored in the parameter variable named `person`.
 
-If we call the function and pass it the word "Martha" as a parameter, the function takes the word, "Martha", stores it in a variable named "person", and concatenates this variable with the word "hello". Then it outputs the combined message, which contains the words, "hello, Martha".
+If we call the function and pass it the word `"Martha"` as a parameter, the function takes the word, `"Martha"`, stores it in a variable named `person`, and concatenates this variable with the word `"hello, "`. Then it outputs the combined message, which contains the words, `"hello, Martha"`.
 
-Calling the function with the word "Martha" as a parameter looks like this:
+Calling the function with the word `"Martha"` as a parameter looks like this:
 
 ```python
 sayHello("Martha")
 ```
 
-If we pass it the word "Simon", it will say "hello, Simon":
+If we pass it the word `"Simon"`, it will say `"hello, Simon"`:
 
 ```python
 sayHello("Simon")
 ```
 
-If we pass it the word, "Susan", it will pop up "hello, Susan":
+If we pass it the word, `"Susan"`, it will pop up `"hello, Susan"`:
 
 ```python
 sayHello("Susan")
@@ -283,7 +283,7 @@ public static int addOne(int someNumber) {
 
 This function defines a block of code that takes some number and adds one to it. Then it returns the new number.
 
-So if we call this number, and give it the number 10 as an argument, we will get the number 11 back. This is how we'd call the function and supply it with the argument, 10. The following code is in Python, although the same concepts apply to all high-level programming languages.
+So if we call this number, and give it the number `10` as an argument, we will get the number `11` back. This is how we'd call the function and supply it with the argument, `10`. The following code is in Python, although the same concepts apply to all high-level programming languages.
 
 ```python
 addOne(10)
@@ -296,7 +296,7 @@ result = addOne(10)
 print(result)
 ```
 
-So we can see that the return value of the function was 11. If we supplied the function with the parameter 3, the return value would be 4, and so on.
+So we can see that the return value of the function was 11. If we supplied the function with the parameter `3`, the return value would be `4`, and so on.
 
 ## Function names
 
