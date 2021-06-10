@@ -369,7 +369,7 @@ Import the OS module:
 `import os`
 
 Get the [current working
-directory](Basic_computer_concepts#Current_working_directory)
+directory](basic-computer-concepts.md#Current_working_directory)
 where the current code file is located:
 
 `currentDirectory = os.getcwd()`
