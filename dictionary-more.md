@@ -19,7 +19,7 @@
 - create a copy of a dictionary: `x.copy()`
 - merge two dictionaries: `x.update(y)` # where y is another dictionary
 
-## Comprehensions (`<span>`)
+## Comprehensions
 
 - comprehensions are quick ways of doing common tasks that require loops
 - they work with any sequence data type, like lists and strings
