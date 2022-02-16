@@ -18,28 +18,18 @@ Before going any further, note that we will not cover the following:
 
 Students are expected to consult the [Student Etiquette FAQ](etiquette.md) prior to asking questions of the tutors, professor, or other students. This allows us to focus our time on questions of greater significance.
 
-### Slack
+### Discord
 
-Our course uses Slack as its main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer.
+Our course uses Discord as its main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer.
 
-- You are not required to supply any personally-identifiable information when signing up for Slack. Discuss with the professor if you have concerns or questions about privacy.
-- **You must create your own _private_ channel in Slack** and invite our graders to join it - name this channel `assgn_fb1258`, where `fb1258` is replaced with your own NYU Net ID.
+- You are not required to supply any personally-identifiable information when signing up for Discord. Discuss with the professor if you have concerns or questions about privacy.
+- **You must create your own _private_ channel in Discord** and invite our graders to join it - name this channel `assgn_fb1258`, where `fb1258` is replaced with your own NYU Net ID.
 
 ### Tutoring
 
 Tutors for this course are waiting to answer your every question via Zoom videoconferencing.
 
-- via [Zoom](https://nyu.zoom.us/j/96900434059)
-- contact @Prasoon and @Hemant on Slack
-
-Hours (all times Eastern):
-
-- Monday:- 2 pm to 3 pm
-- Tuesday:- 10 am to 11 am
-- Wednesday:- 2 pm to 4 pm
-- Thursday:- 3 pm to 5 pm
-- Friday:- 10 am to 12 pm
-- Saturday:- 9 am to 11 am
+Hours TBD
 
 ### Additional tutoring resources
 
