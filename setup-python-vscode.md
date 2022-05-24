@@ -103,7 +103,7 @@ Create a practice code repository on GitHub from an example assignment
 we have prepared:
 
 1.  Open a web browser and go to this address:
-    <https://classroom.github.com/a/7gf0D7bl>
+    <https://classroom.github.com/a/tFw-uvAK>
 2.  You will be asked to accept this \"assignment\". Click the button to
     accept. This will copy code we have prepared and create a repository
     (an archive of code) for you in your GitHub account.
