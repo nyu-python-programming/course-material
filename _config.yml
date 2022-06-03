@@ -1,0 +1,11 @@
+github-org-name: nyu-python-programming
+baseurl: /course-material
+title: Computer Programming
+description: >
+  A course on basic computer programming, using the Python language.
+copyright: GNU General Public License, Version 3
+layouts_dir: assets/jekyll/_layouts/
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
