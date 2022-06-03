@@ -6,7 +6,7 @@
 
 ## Deployed Site
 
-View the [course schedule](https://nyu-python-programming.github.io/course-material/) and [syllabus](https://nyu-python-programming.github.io/course-material/syllabus).
+View the [course schedule](https://nyu-python-programming.github.io/course-material/schedule.md) and [syllabus](https://nyu-python-programming.github.io/course-material/syllabus).
 
 ## Code
 
