@@ -2,6 +2,7 @@
 layout: github
 title: Schedule
 permalink: /
+redirect_from: /schedule.md
 ---
 
 # Intro to Computer Programming in Python
