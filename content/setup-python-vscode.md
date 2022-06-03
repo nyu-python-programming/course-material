@@ -71,7 +71,7 @@ extensions (a.k.a. plug-ins) and change some settings to make Visual
 Studio Code most suitable for Python development.
 
 ![Visual Studio Code's Python
-Extension](./images/vscode/Vscode_python_extension.png "Visual Studio Code's Python Extension")
+Extension](./content/images/vscode/Vscode_python_extension.png "Visual Studio Code's Python Extension")
 
 Install the Python extension:
 
@@ -119,7 +119,7 @@ we have prepared:
     later.
 
 ![GitHub classroom assignment personal repository
-link](./images/vscode/Github_classroom_assignment_link.png "GitHub classroom assignment personal repository link")
+link](./content/images/vscode/Github_classroom_assignment_link.png "GitHub classroom assignment personal repository link")
 
 ### Copy the given sample assignment code to your own computer
 
@@ -130,7 +130,7 @@ on your own computer\...
 2.  click the Source Control icon in the left toolbar and then click the
     button to \"Clone Repository\".
     ![Visual Studio Code's source control
-view](./images/vscode/Vscode_git_view_initial.png "fig:Visual Studio Code's source control view")
+view](./content/images/vscode/Vscode_git_view_initial.png "fig:Visual Studio Code's source control view")
 
 3.  A text field will pop open at the top of Visual Studio Code for the
     web address of the repository to clone. Paste in the address of your
@@ -142,7 +142,7 @@ view](./images/vscode/Vscode_git_view_initial.png "fig:Visual Studio Code's sour
 5.  Visual Studio Code may ask you to \"sign in\" to GitHub\... do so,
     if requested.
     ![Sign in to GitHub, if
-requested](./images/vscode/Vscode_authorize_github.png "fig:Sign in to GitHub, if requested")
+requested](./content/images/vscode/Vscode_authorize_github.png "fig:Sign in to GitHub, if requested")
 6.  Once signed in, Visual Studio Code will download a copy (i.e. a
     clone) of all the files in your GitHub code repository to a
     sub-directory of the directory on your own computer that you
@@ -161,7 +161,7 @@ running in Visual Studio Code.
 3.  Now click on the Run icon in the tool bar (the icon with a play
     button with a bug next to it) - this is where you can run the code
     ![Visual Studio Code's Run view... click to configure, if
-offered](./images/vscode/Vscode_run_view_initial.png "fig:Visual Studio Code's Run view... click to configure, if offered")
+offered](./content/images/vscode/Vscode_run_view_initial.png "fig:Visual Studio Code's Run view... click to configure, if offered")
 4.  Click the link to \"Create a launch.json file\". A list of
     configuration options will appear\... click \"Python file\".
 5.  Make sure the Run icon is still selected. You will see a green play
@@ -170,7 +170,7 @@ offered](./images/vscode/Vscode_run_view_initial.png "fig:Visual Studio Code's R
     need to select a Python interpreter\... Click the button to do so.
     ![Visual Studio Code's python interpreter warning... set up the
 anaconda
-interpreter](./images/vscode/Vscode_python_interpreter.png "fig:Visual Studio Code's python interpreter warning... set up the anaconda interpreter")
+interpreter](./content/images/vscode/Vscode_python_interpreter.png "fig:Visual Studio Code's python interpreter warning... set up the anaconda interpreter")
 7.  In the list of Python interpreters, select the version 3.x that has
     \"conda\" or \"anaconda\" in the name - this is the same Anaconda
     interpreter you installed earlier.
@@ -219,7 +219,7 @@ framework in Visual Studio Code:
     only a checkmark icon indicating that all tests passed.
     ![Visual Studio Code's status bar... notice the checkmark indicating
 the tests
-passed](./images/vscode/Vscode_test_status_bar.png "fig:Visual Studio Code's status bar... notice the checkmark indicating the tests passed")
+passed](./content/images/vscode/Vscode_test_status_bar.png "fig:Visual Studio Code's status bar... notice the checkmark indicating the tests passed")
 
 ## Modify the code
 
@@ -284,7 +284,7 @@ Hello world!
 ```
 
 ![Sample output from running the
-program](./images/vscode/Vscode_correct_sample_output.png "fig:Sample output from running the program")
+program](./content/images/vscode/Vscode_correct_sample_output.png "fig:Sample output from running the program")
 
 ## Submit the completed assignment
 
@@ -302,7 +302,7 @@ indicated order:
     typing the message, you can instead click the \"\...\" button above
     the message field and click the \"Commit all\" option in the menu
     that appears.
-    ![Enter a unique message in the text field and then type Command-Enter (Mac) or Control-Enter (Windows)](./images/vscode/Vscode_commit_all.png "Enter a unique message in the text field and then type Command-Enter (Mac) or Control-Enter (Windows)")
+    ![Enter a unique message in the text field and then type Command-Enter (Mac) or Control-Enter (Windows)](./content/images/vscode/Vscode_commit_all.png "Enter a unique message in the text field and then type Command-Enter (Mac) or Control-Enter (Windows)")
 
 3.  Now, click the '...' button above the message field and click the
     'Push' option in the menu that appears - this will upload your
@@ -310,7 +310,7 @@ indicated order:
 
 ![Click the ... button and then select the 'Push' menu option to
 upload these changes to
-GitHub](./images/vscode/Vscode_push_to_git_remote.png "Click the ... button and then select the 'Push' menu option to upload these changes to GitHub")
+GitHub](./content/images/vscode/Vscode_push_to_git_remote.png "Click the ... button and then select the 'Push' menu option to upload these changes to GitHub")
 
 You have now submitted your completed assignment. Your changes are now
 posted to GitHub.com, where the instructor and graders can access it.

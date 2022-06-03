@@ -44,7 +44,7 @@ they are used in regular English speech.
 The AND logic operator is used to evaluate two Boolean values according
 to the following truth table:
 
-![AND logic](./images/boolean-logic/And_logic_truth_table.png)
+![AND logic](./content/images/boolean-logic/And_logic_truth_table.png)
 
 AND requires that two expressions both be true in order for the entire
 expression to evaluate to true. In all other cases, the expression
@@ -90,7 +90,7 @@ if (today.equals("Tuesday") && myJob == "plumber") {
 The OR logic operator is used to evaluate two Boolean values according
 to the following truth table:
 
-![OR logic](./images/boolean-logic/Or_logic_truth_table.png)
+![OR logic](./content/images/boolean-logic/Or_logic_truth_table.png)
 
 If one or more values in an OR expression evaluates is true, the entire
 expression is true. If both values are false, the entire expression
@@ -123,7 +123,7 @@ if (feeling.equals("lazy") || horriblyOverworked == true) {
 The NOT logic operator is used to evaluate a single Boolean values and
 flip it to its invert:
 
-![NOT logic](./images/boolean-logic/Not_logic_truth_table.png)
+![NOT logic](./content/images/boolean-logic/Not_logic_truth_table.png)
 
 NOT logic simply reverses a Boolean value. If something was true, it
 becomes false. If it was false, it becomes true.

@@ -435,7 +435,7 @@ files on the computer are organized in folders, and these folders can be
 put into other folders. Mac Finder illustrates this nicely:
 
 ![Mac Finder shows the hierarchy of
-folders](./images/basics/Picture-1-300x127.png "Mac Finder shows the hierarchy of folders")
+folders](./content/images/basics/Picture-1-300x127.png "Mac Finder shows the hierarchy of folders")
 
 In this screenshot of Mac Finder, you can see that each folder on a
 drive can contains several sub-folders, and those sub-folders can
@@ -488,7 +488,7 @@ server serves data to a client.
 These roles can switch. A computer that is a client one minute, may
 become a server the next minute, and vice versa.
 
-![client and server](./images/basics/Client_and_server_diagram.png)
+![client and server](./content/images/basics/Client_and_server_diagram.png)
 
 ### on the web
 
@@ -545,7 +545,7 @@ Servers "serve" files to clients. Clients request a particular web
 page file from the server, and the server responds with the contents of
 that file.
 
-![peer-to-peer](./images/basics/Peer_to_peer_network_diagram.png)
+![peer-to-peer](./content/images/basics/Peer_to_peer_network_diagram.png)
 
 ## Web browsers
 

@@ -289,7 +289,7 @@ public class BooleanLogicExample {
 #### Flow chart
 
 Flow chart of the same program\...
-![If/else if/else flow](./images/boolean-logic/If_elseif_else_flow_chart.png)
+![If/else if/else flow](./content/images/boolean-logic/If_elseif_else_flow_chart.png)
 
 ### Example of switch/case statement
 

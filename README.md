@@ -16,8 +16,10 @@ The website linked above has been developed using [Jekyll](https://jekyllrb.com/
 
 It is possible to run the website locally on your own machine.
 
+- Assuming [Ruby](https://www.ruby-lang.org/en/documentation/installation/) is installed...
 - Install [Jekyll](https://jekyllrb.com/) globally
-- run `jekyll serve`
+- Install the dependencies listed in the `Gemfile` by running the command, `bundle`.
+- run `bundle exec jekyll serve`
 
 ## Contributing
 

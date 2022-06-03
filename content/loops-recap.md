@@ -27,7 +27,7 @@ Iterate through strings, lists, ranges, or files:
 - for i in `<range>`:
 - for i in `<file>`:
 
-![For loop flow chart](./images/loops/For_loops_in_Python_flow_chart.png "For_loops_in_Python_flow_chart.png")
+![For loop flow chart](./content/images/loops/For_loops_in_Python_flow_chart.png "For_loops_in_Python_flow_chart.png")
 
 ## While loops
 
@@ -39,7 +39,7 @@ Iterate through strings, lists, ranges, or files:
 - accumulator pattern
   - running totals
 
-![While loop flow chart](./images/loops/While_loop_flow_chart.png "While_loop_flow_chart.png")
+![While loop flow chart](./content/images/loops/While_loop_flow_chart.png "While_loop_flow_chart.png")
 
 ## General loop controls
 
