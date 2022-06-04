@@ -134,6 +134,7 @@ external-deps/python-language-server/python_language_server.egg-info/
 
 
 ## Jekyll artifacts
-**/.jekyll-cache
-**/_site/
-
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata

@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-    <title>{{ page.title | strip_html }}</title>
+    <title>
+      {{ page.title | downcase | strip_html }} | {{ site.github.repository_name
+      }} | {{ site.github.owner_name | downcase | strip_html }}
+    </title>
     <meta name="generator" content="Jekyll v3.9.2" />
     <meta property="og:title" content="{{ page.title | strip_html }}" />
     <meta property="og:locale" content="en_US" />
@@ -56,9 +59,13 @@
     <div class="container-lg px-3 my-5 markdown-body">
       <header>
         <small>
+          <a href="https://github.com/{{ site.github.owner_name }}">
+            {{ site.github.owner_name | downcase | strip_html }}
+          </a>
+          /
           <a href="{{ site.baseurl | strip_html }}/">
             <!-- {{ site.github-org-name }} -->
-            {{ site.baseurl | strip_html }}
+            {{ site.github.repository_name | strip_html }}
           </a>
         </small>
       </header>

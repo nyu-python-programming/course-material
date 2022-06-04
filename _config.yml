@@ -7,5 +7,7 @@ copyright: GNU General Public License, Version 3
 layouts_dir: assets/jekyll/_layouts/
 plugins:
   - jekyll-redirect-from
+  - jekyll-github-metadata
 whitelist:
   - jekyll-redirect-from
+  - jekyll-github-metadata

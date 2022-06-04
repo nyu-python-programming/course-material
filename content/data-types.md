@@ -40,7 +40,7 @@ Regular text is usually represented by programming languages as a
 \"string of characters\" or \"string\" for short.
 
 Most programming languages require that quotation marks be placed around
-string [literals](Variables,_literals,_and_expressions) to
+string [literals](./variables-literals-expressions) to
 differentiate them from other keywords in the language. Whether to use
 double or single quotes for this is dependent on which language you are
 using.
