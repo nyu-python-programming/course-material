@@ -15,8 +15,7 @@ ultimately have only one of two values: true or false.
 
 ## Boolean literals
 
-There are [Boolean
-literals](Variables,_literals,_and_expressions#Boolean_literals)
+There are [Boolean literals](./variables-literals-expressions#boolean-literals)
 to represent each of these values in code.
 
 ### Python

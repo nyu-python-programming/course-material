@@ -109,8 +109,7 @@ they have many other uses as well.
 
 When we say text files contain only text, this can be a bit misleading,
 depending on the context. All data, including text, is fundamentally
-stored as numbers ([binary
-data](Number_systems#Binary_numbers) in particular) in
+stored as numbers ([binary data](https://knowledge.kitchen/Number_systems#Binary_numbers) in particular) in
 memory, storage, and in the computer's processor. So what we really
 mean when we call something a 'text file' is that the only data stored
 in text files are the binary numbers that represent text characters. So
@@ -280,8 +279,7 @@ potential users:
 - others - everyone else not including the user or
   the group
 
-File permissions can be adjusted either through the options in the [file
-browsing application](https://knowledge.kitchen/Basic_computer_concepts#Browsing_files)
+File permissions can be adjusted either through the options in the [file browsing application](#browsing-files)
 of an operating system's [Graphical User
 Interface](https://knowledge.kitchen/Popular_operating_systems_and_trends#Graphical_User_Interface),
 such the 'Properties' context menu in Windows Explorer on Windows or
@@ -497,15 +495,14 @@ amazing site, is often called a
 '[client](http://en.wikipedia.org/wiki/Client_29)'. This term is used
 to differentiate your desktop computer or mobile device from the web
 '[servers](http://en.wikipedia.org/wiki/Server_29)' that permanently
-store the web pages (which are simply [text
-files](#Text_files) with [ HTML
+store the web pages (which are simply [text files](./text-files) with [ HTML
 code]https://knowledge.kitchen/Category:HTML) in them) that you visit.
 
 Web servers make the data stored on them available to the public by
 allowing any other computer to connect to them and ask for the files.
 Your personal computers probably don't give your files to anonymous
 creeps on the Internet (euphemistically called
-['others'](#File_permissions) internally on the server), so
+['others'](#file-permissions) internally on the server), so
 it does not usually act as a web server, although it could be set up as
 one.
 

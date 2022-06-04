@@ -10,7 +10,7 @@ redirect_from: /etiquette.md
 This document is a set of Frequently Asked Questions that relate to
 etiquette and other matters involving the relationship among students,
 professors, and university administration. Although this area is poorly
-researched, some research does show that students and professors often
+researched, [some research](#references) does show that students and professors often
 have different expectations. This document attempts to make clear the
 expectations from one side of that equation.
 
@@ -39,7 +39,7 @@ In all other cases, see the professor in person.
 
 Check the syllabus, or ask the professor if it\'s not there. Don\'t just
 use the email address that Gmail recommends if the professor has
-indicated a preference for a different email address.
+indicated a preference for a different email address. You are expected to make decisions as a human.
 
 #### I\'m sending an email to 2 or 3 of the professor\'s different email addresses at the same time. Is this a good idea?
 
@@ -62,10 +62,13 @@ have decided to re-send the same message.
 When in doubt, it\'s never wrong to address people you don\'t know well
 formally. Such as,
 
-`Dear [Insert Recipient's Name or Title Here],`\
-`[Insert your message here]`
+```
+Dear [Insert Recipient's Name or Title Here],
 
-And it is customary to add a complimentary closing to the letter, even
+[Insert your message here]
+```
+
+It is customary to add a complimentary closing to the letter, even
 if you dislike the person. Commonly-used closings include (in order of
 decreasing formality), \"Respectfully\", \"Sincerely\", \"Kind
 regards\", \"Best regards\", \"Many thanks\", \"Thanks\". For example:
@@ -73,7 +76,7 @@ regards\", \"Best regards\", \"Many thanks\", \"Thanks\". For example:
 `Respectfully,`\
 `[Insert your name here]`
 
-This may seem overly formal to some, and it is. But it is better to be
+This may seem overly formal to some, and it is. But it is always better to be
 more formal than overly casual with people you don\'t know, lest they
 take insult. Should you become good buddies with the professor, tutors,
 and graders, as you are sure to do in the future, you may then write in
@@ -84,11 +87,10 @@ on the side of formality.
 
 Upload the attachment to a public web server, such as
 [i6](https://knowledge.kitchen/Transfer_files_to_the_i6_web_server), your own web
-server, or a cloud hosting service such as
-[Box.com](https://nyu.box.com/), Dropbox, or Google Drive, and just send
-us the link to it.
+server, or a cloud file hosting service such as
+[Box.com](https://nyu.box.com/), Dropbox, or Google Drive. Then include the link to the file in your message.
 
-Please make sure any link you send works before sending.
+Please make sure to verify that the link you are about to send works before sending.
 
 ## Assignments
 
@@ -110,7 +112,7 @@ there is no such information on the syllabus, speak with the professor.
 
 #### You claim I didn\'t submit my assignment, but I did. Should I send you a screenshot of my submission?
 
-Why would you do this? Sending a screenshot is proof of nothing except,
+Sending a screenshot is proof of nothing except,
 perhaps, a lack of critical thinking and lack of ability in image
 editing software like [Photoshop](https://knowledge.kitchen/:Category:Photoshop).
 
@@ -118,12 +120,12 @@ editing software like [Photoshop](https://knowledge.kitchen/:Category:Photoshop)
 
 #### Why haven\'t I received my grade for the assignment yet?
 
-It probably hasn\'t been graded yet. Raise any concerns with the
+It probably hasn\'t been graded yet. Stay calm. Raise any concerns with the
 professor.
 
 #### The grade I received is wrong. Should i email the professor?
 
-See [above](#Should_I_email_the_professor?) for email
+See [above](#should-i-email-the-professor) for email
 etiquette.
 
 #### Only one line of code was incorrect in my assignment. Why did you take off so many points?
@@ -211,7 +213,7 @@ probably not perfect for anyone.
 Come to class
 
 - You can\'t realistically expect to do well in a course if you don\'t
-  [attend](#Attendance) and know what is discussed.
+  [attend](#attendance) and know what is discussed.
 
 Plan to spend significant time alone doing work for the course
 
@@ -233,7 +235,7 @@ Don\'t move ahead until you\'ve covered your behind:
 Come to class and pay attention:
 
 - Print out the class notes, if available, and bring them to class
-- Write [your own notes](#Notes) on this paper.
+- Write [your own notes](#notes) on this paper.
 - Turn off your phone in class and when studying
 - Turn off your computer in class and when studying
 - [Get out of the habit of Googling
@@ -264,8 +266,7 @@ professor if you would like to talk.
 ### I did badly on the exam. Is there anything I can do to fix my grade?
 
 Not unless the professor announces any special arrangement to the entire
-class. Try to [do better next
-time](#I_did_badly_on_the_exam._How_can_I_do_better_next_time.3F).
+class. Try to [do better next time](#i-did-badly-on-the-exam-how-can-i-do-better-next-time).
 Please do not ask for special treatment - that would be unfair to
 others.
 
@@ -276,12 +277,11 @@ effort](#I_spent_a_lot_of_time_and_effort_on_this_work._Can.27t_I_get_some_credi
 
 ### I did badly on the exam. How can I do better next time?
 
-Try to [improve your study habits](#How_should_I_study?)
+Try to [improve your study habits](#how-should-i-study)
 
 ### I missed the exam, when is the make-up exam?
 
-There is no make-up exam. You will probably [not do well in the
-course](#I'm_going_to_fail_the_course._What_should_I_do?).
+There is no make-up exam. You will probably [not do well in the course](#im-going-to-fail-the-course-what-should-i-do).
 Talk to the professor in person.
 
 ## Grading
@@ -355,7 +355,7 @@ whole time? You might as well watch a video.
 #### Should I look at my phone during class?
 
 A phone is a small computer. See
-[above](#Is_it_a_good_idea_to_use_my_computer_in_class?)
+[above](#is-it-a-good-idea-to-use-my-computer-in-class)
 
 ### Notes
 
@@ -388,8 +388,7 @@ readings and lecture notes are readily available for you to peruse.
 
 If you have good discipline, maybe you can do well by just reading
 those\... but maybe not. Maybe other students will tell you what you
-missed\... but maybe not. [People who come to
-class](#Should_I_come_to_class.3F) tend to do better.
+missed\... but maybe not. [People who come to class](#should-i-come-to-class) tend to do better.
 
 It is generally considered from impolite to rude to ask a professor what
 you missed after you skip class, unless your absence has a very good

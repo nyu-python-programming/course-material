@@ -484,8 +484,7 @@ and[Dictionaries](https://knowledge.kitchen/Reading_and_parsing_CSV_files_in_Pyt
 ## Regular Expressions module
 
 Python, like most other high-level programming languages, provides
-support for Regular Expressions. The [re module is documented
-separately](regular-expressions#Python_implementation).
+support for Regular Expressions. The [re module is documented separately](./regular-expressions#python-implementation).
 
 ## UrlLib.Request module
 
@@ -517,8 +516,7 @@ to the console.
 ```
 
 Once an HTML document has been retrieved from the web, it can be easily
-parsed using HTML parser modules, such as [Beautiful
-Soup](#Beautiful_Soup).
+parsed using HTML parser modules, such as [Beautiful Soup](#beautiful-soup).
 
 ### Parser example
 

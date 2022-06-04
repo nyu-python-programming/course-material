@@ -8,7 +8,7 @@ redirect_from: /regular-expressions.md
 # Regular expressions
 
 Raw strings are just another way to write string
-[literals](./variables-literals-expressions#Variables_vs._Literals).
+[literals](./variables-literals-expressions#variables-vs-literals).
 
 ## Regular string literals
 

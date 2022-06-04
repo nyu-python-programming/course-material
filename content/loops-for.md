@@ -15,7 +15,7 @@ The following examples all repeat a print statement 6 times in order to print th
 
 ### Python example
 
-This example uses the [range function](#Ranges_in_Python) to generate the list of values to loop through.
+This example uses the [range function](#ranges-in-python) to generate the list of values to loop through.
 
 ```python
 for i in range(5,11):
