@@ -7,10 +7,10 @@ redirect_from: /string-formatting.md
 
 # Formatting strings
 
-Examples of formatting [strings in Python](string-basics.md) using the built-in [string format() function](https://docs.python.org/3/library/string.html#format-examples).
+Examples of formatting [strings in Python](string-basics) using the built-in [string format() function](https://docs.python.org/3/library/string.html#format-examples).
 
 - The expected output of each example is displayed as a comment.
-- Note that the format [function](functions.md) always returns a string.
+- Note that the format [function](functions) always returns a string.
 
 ## The basic idea
 

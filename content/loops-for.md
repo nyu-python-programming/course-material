@@ -7,7 +7,7 @@ redirect_from: /loops-for.md
 
 # For loops
 
-Unlike [while loops](While_loops), which are most often used to repeat the execution of a block of code an indefinite number of times, for loops are usually used to execute a block of code a fixed finite number of times. Each repetition is called an iteration.
+Unlike [while loops](loops-while), which are most often used to repeat the execution of a block of code an indefinite number of times, for loops are usually used to execute a block of code a fixed finite number of times. Each repetition is called an iteration.
 
 ## Iterating through a series of numbers
 

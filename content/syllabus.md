@@ -23,7 +23,7 @@ Before going any further, note that we will not cover the following:
 
 ### FAQ
 
-Students are expected to consult the [Student Etiquette FAQ](etiquette.md) prior to asking questions of the tutors, professor, or other students. This allows us to focus our time on questions of greater significance.
+Students are expected to consult the [Student Etiquette FAQ](./etiquette) prior to asking questions of the tutors, professor, or other students. This allows us to focus our time on questions of greater significance.
 
 ### Messaging
 
@@ -70,7 +70,7 @@ Other good books:
 
 ## Software
 
-In this course, we are learning how to program Python version 3.x. Instructions for setting up the Python programming environment are [here](setup-python-vscode.md).
+In this course, we are learning how to program Python version 3.x. Instructions for setting up the Python programming environment are [here](setup-python-vscode).
 
 ## Grading
 
@@ -88,7 +88,7 @@ Grades are weighted as follows:
 All assignments will be submitted by pushing code to GitHub.
 
 - we will cover how to push code to GitHub
-- all file names must follow standard [naming conventions](basic-computer-concepts.md#File_names).
+- all file names must follow standard [naming conventions](basic-computer-concepts#file-names).
   - No capital letters
   - No spaces
   - No special characters except the underscore `_` character and the dot `.` before the extension.

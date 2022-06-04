@@ -145,7 +145,7 @@ else:
 ### Example program with nested branches
 
 This program, which assumes an understanding of
-[functions](./functions.md), is an example of a job application
+[functions](./functions), is an example of a job application
 self-evaluation tool. It asks the user to enter their desired job, and
 then runs through a series of questions to determine how suited the
 candidate is for that job. We have only designed the code for the \"fry

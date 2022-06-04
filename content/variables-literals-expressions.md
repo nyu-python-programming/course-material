@@ -79,14 +79,14 @@ You remember that \"name\" is a variable that refers to the name,
 `introduction = "Hello, my name is " + "Inego Montoya" + "."`
 
 which, if you use the plus sign to
-[concatenate](Strings#String_concatenation_operators) the two
+[concatenate](./string-basics.md#concatenating-strings) the two
 bits of text, means that:
 
 `introduction = "Hello, my name is Inego Montoya."`
 
 So here we have examples that deal with variables that refer to textual
 data, not numbers. In programming parlance, variables, like this, that
-hold text are called \"[strings](string-basics.md)\", as in a string
+hold text are called \"[strings](string-basics)\", as in a string
 of characters.
 
 ## Defining variables
@@ -328,7 +328,7 @@ results in one value:
 
 `5 + x`
 
-An expression may involve a call to a [function](functions.md)
+An expression may involve a call to a [function](functions)
 that returns a single value:
 
 `do_something()`

@@ -478,14 +478,14 @@ written in comma-separated values (CSV) format. CSV is the most common
 text file format for text data from spreadsheets or databases.
 
 See [examples of using the csv module to parse CSV files into
-Lists](Reading_and_parsing_CSV_files_in_Python#CSV_to_Lists)
-and[Dictionaries](Reading_and_parsing_CSV_files_in_Python#CSV_to_Dictionaries).
+Lists](https://knowledge.kitchen/Reading_and_parsing_CSV_files_in_Python#CSV_to_Lists)
+and[Dictionaries](https://knowledge.kitchen/Reading_and_parsing_CSV_files_in_Python#CSV_to_Dictionaries).
 
 ## Regular Expressions module
 
 Python, like most other high-level programming languages, provides
 support for Regular Expressions. The [re module is documented
-separately](Regular_expressions#Python_implementation).
+separately](regular-expressions#Python_implementation).
 
 ## UrlLib.Request module
 

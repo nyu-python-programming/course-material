@@ -203,7 +203,7 @@ of binary file. For example, we typically use software such as [Adobe
 Photoshop]https://knowledge.kitchen/Category:Photoshop) or [Adobe
 Illustrator]https://knowledge.kitchen/Category:Illustrator) when dealing with image
 files and audio editing software such as
-[Audacity]https://knowledge.kitchen/Category:Audio) when editing audio files.
+[Audacity](https://knowledge.kitchen/Category:Audio) when editing audio files.
 
 ## File names
 

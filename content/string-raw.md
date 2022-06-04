@@ -7,7 +7,7 @@ redirect_from: /string-raw.md
 
 # Raw strings
 
-Raw strings are just another way to write string [literals](variables-literals-expressions.md).
+Raw strings are just another way to write string [literals](variables-literals-expressions).
 
 ## Regular string literals
 
@@ -86,7 +86,7 @@ In raw string literals, backslashes have no special meaning as an escape charact
 
 ## Regular expressions are more easily written with raw string literals
 
-[Regular expressions](regular-expressions.md) usually contain a lot of backslashes. When using Python\'s [re module](https://docs.python.org/3.5/library/re.html), regular expressions are represented as strings. So, like all strings with a lot of backslashes, they are more readable when written in raw literal form.
+[Regular expressions](regular-expressions) usually contain a lot of backslashes. When using Python\'s [re module](https://docs.python.org/3.5/library/re.html), regular expressions are represented as strings. So, like all strings with a lot of backslashes, they are more readable when written in raw literal form.
 
 ```python
 #import Python's regular expressions module

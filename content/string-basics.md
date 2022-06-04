@@ -499,10 +499,10 @@ contents. These functions all return booleans:
 
 - `x.format()` with named keywords
 - `x.format()` with indices
-- see [string formatting examples](./string-formatting.md)
+- see [string formatting examples](./string-formatting)
 
 ### String functions that split strings into lists
 
 - `x.split(y)`
 - `x.rsplit(y)`
-- [see more about Lists](list-basics.md)
+- [see more about Lists](list-basics)

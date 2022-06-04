@@ -307,4 +307,4 @@ So we can see that the return value of the function was 11. If we supplied the f
 
 ## Function names
 
-Like variable names, function names must not have any spaces or special characters in them, although they can use the underscore ("\_") character. They also often use [lower camel case or upper camel case conventions](variables-literals-expreassions.md).
+Like variable names, function names must not have any spaces or special characters in them, although they can use the underscore ("\_") character. They also often use [lower camel case or upper camel case conventions](variables-literals-expreassions).

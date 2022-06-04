@@ -62,7 +62,7 @@ for line in f:
 
 ### Checking whether a file already exists
 
-Python\'s [os module](modules.md) contains
+Python\'s [os module](modules) contains
 useful methods for checking whether any given file already exists in the
 file system.
 
@@ -143,7 +143,7 @@ functions](string-basics.md).
 
 ### Useful functions
 
-[List functions](list-more.md) that modify an existing List:
+[List functions](list-more) that modify an existing List:
 
 - `.append(some_value)` - adds the value as a new element at the end of
   the list

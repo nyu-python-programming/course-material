@@ -53,7 +53,7 @@ Examples:
 - `"12.2"` \#note that most languages will treat this as a string, not
   a float because of the quotes
 
-See more on [Strings](./string-basics.md)
+See more on [Strings](./string-basics)
 
 ### Booleans
 
@@ -70,7 +70,7 @@ Examples of Boolean values in Java:
 - `true`
 - `false`
 
-See more on [Boolean logic](./boolean-logic.md)
+See more on [Boolean logic](./boolean-logic)
 
 ## Aggregate data structures
 
@@ -80,13 +80,13 @@ more "high-level".
 
 ### Lists and arrays
 
-[Lists](./list-basics.md), also known as arrays, are groups of single values.
+[Lists](./list-basics), also known as arrays, are groups of single values.
 
 - e.g. `"money", "wealth", and "peanut butter"`
 
 ### Dictionaries, associative arrays, and hash maps
 
-[Dictionaries](./dictionary-basics.md), associative arrays, and hash
+[Dictionaries](./dictionary-basics), associative arrays, and hash
 tables, are all data structures that hold a group of key/value pairs.
 
 - e.g. `"my_name": "Inego Montoya", "reason_here": "to kill your father"`
@@ -123,7 +123,7 @@ Imagine you have a variable x
 
 `x = "4"`
 
-Python [built-in functions](./modules.md):
+Python [built-in functions](./modules):
 
 - `int(x)` -- converts a float or string to an integer
 - `float(x)` -- converts an integer or string to a float

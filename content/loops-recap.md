@@ -9,7 +9,7 @@ redirect_from: /loops-recap.md
 
 ## For loops
 
-[For loops](loops-for.md) iterate through a finite sequence of values.
+[For loops](loops-for) iterate through a finite sequence of values.
 
 - finite loops
 - lists `[0,1,2,3,4,5]`
@@ -31,7 +31,7 @@ Iterate through strings, lists, ranges, or files:
 
 ## While loops
 
-[While loops](loops-while.md) repeat a potentially unfinite number of iterations.
+[While loops](loops-while) repeat a potentially unfinite number of iterations.
 
 - indefinite loops
   - Since while loop is indefinite loops, when for loop is definite, it is better to use while loop to set up the conditions that have to be satisfied to prevent the program from crashing.

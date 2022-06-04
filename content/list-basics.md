@@ -49,7 +49,7 @@ print(z[2]) # prints from z's copy of the original list -> "lock"
 
 ## More about lists
 
-Click to read [more about lists](list-more.md), including List functions and operations.
+Click to read [more about lists](list-more), including List functions and operations.
 
 ## Examples
 

@@ -7,7 +7,7 @@ redirect_from: /loops-while.md
 
 # While loops
 
-Unlike [for loops](For_loops), which are used mostly to repeat a block of code a finite number of times, while loops are most often used to execute a block of code an indefinite number of times. Each repetition is called an **iteration**.
+Unlike [for loops](loops-for), which are used mostly to repeat a block of code a finite number of times, while loops are most often used to execute a block of code an indefinite number of times. Each repetition is called an **iteration**.
 
 ## Iterating through a series of numbers
 
@@ -122,7 +122,7 @@ while ($i < strlen($s)) {
 
 ## Iterating through a values in a list or array
 
-The following examples all repeat a print statement 5 times in order to output each of the following values: \'they\', \'sailed\', \'away\', \'in\', \'a\', \'sieve\', \'they\', \'did\' - these words are from the first line of [The Jumblies](The_Jumblies), by Edward Lear. The algorithm is as follows:
+The following examples all repeat a print statement 5 times in order to output each of the following values: \'they\', \'sailed\', \'away\', \'in\', \'a\', \'sieve\', \'they\', \'did\' - these words are from the first line of [The Jumblies](./the-jumblies), by Edward Lear. The algorithm is as follows:
 
 - start a counter at the value zero
 - enter a loop, and keep looping until the counter reaches the number of values in the list
