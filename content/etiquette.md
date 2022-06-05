@@ -178,23 +178,25 @@ university.
 
 ## Exams
 
-### What is going to be on the test?
+### What is going to be on the exam?
 
-This is one of the most common questions, and usually one of the
-questions instructors find most difficult to find empathy towards.
+This is one of the most common questions, and one of the
+questions that instructors like least.
 
-A course typically involves lectures, professors\' notes, readings, and
-assignments. These are the materials of any course prepared by the
+A course typically involves lectures, instructor's notes, readings,
+assignments, and possibly quizzes. These are the materials of any course prepared by the
 instructor which are intended to be useful to students in understanding
 concepts and practices. Exams are designed to test students\'
-understanding of these same concepts and practices.
+understanding of these same concepts and practices. This is self-evident.
 
-Why do you think courses include these resources, and what besides the
+So why do you think courses include these resources, and what besides the
 concepts and practices therein did you think was going to be on the
-exam?! Lecture and professors\' notes are usually a good guide to what
+exam?! Lectures and instructor's notes are usually a good guide to what
 they find most interesting and helpful to you. Reading and assignments
 are meant to force students to spend time outside of class mastering
-those same concepts. It\'s hard to imagine a student who is interested
+those same concepts.
+
+It is hard to imagine a student who is interested
 in the course who also does not know what concepts and practices have
 been discussed, noted, read, and assigned. So if you ask this question,
 it might convey a complete disinterest in all the materials that have
