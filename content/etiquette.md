@@ -73,8 +73,11 @@ if you dislike the person. Commonly-used closings include (in order of
 decreasing formality), \"Respectfully\", \"Sincerely\", \"Kind
 regards\", \"Best regards\", \"Many thanks\", \"Thanks\". For example:
 
-`Respectfully,`\
-`[Insert your name here]`
+```
+Respectfully,
+
+[Insert your name here]
+```
 
 This may seem overly formal to some, and it is. But it is always better to be
 more formal than overly casual with people you don\'t know, lest they
