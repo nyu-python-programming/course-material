@@ -133,9 +133,8 @@ etiquette.
 
 #### Only one line of code was incorrect in my assignment. Why did you take off so many points?
 
-We do not deduct points proportionally to how many lines of code are
-incorrect. We deduct according to whether the assignment meets the
-stated requirements or not.
+We do not award points in proportion with how many lines of code have been written correctly. We deduct according to whether the assignment meets the
+stated requirements or not. Well-written code usually contains fewer lines than poorly-written code.
 
 #### I spent a lot of time and effort on this work. Can\'t I get some credit for that?
 
