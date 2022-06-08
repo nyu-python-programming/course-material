@@ -37,6 +37,14 @@ To use these automated tests, do the following:
 
 1. Leave short but clear helpful comments for every assignment in the main course gradebook. Explain in human terms why each student lost any points. There is no need to refer the tests in these comments - explain concisely in human terms the problems identified in the code either by the automated tests or by yourself.
 
+### Batch assignment grading
+
+A [separate project](https://github.com/nyu-python-programming/assignment-autograder-and-exam-timer) contains tools for automatically calculating grades for all submissions to a particular assignment based on the number of automated tests that pass. That repository also contains a tool to check how much time each student took to complete the work, which can be useful for giving late penalties.
+
+## Exams
+
+Each exam is structured as a combination of a quiz and an assignment, so grading exams combines the techniques for both types.
+
 ## Main Gradebook
 
 The main course gradebook is a Google Sheet. This spreadsheet contains a script that will send students an email containing all their grades when run.
