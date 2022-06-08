@@ -8,14 +8,14 @@ Quizes are issued to students as [Google Forms](https://forms.google.com). Submi
 
 The Google Forms admin interface contains a `Responses` tab, where student submissions are visible. This page also shows an icon that can be clicked to generate a Google Sheet showing each student's time of submission and score.
 
-![Generate spreadsheet from Google Forms](./content/images/google_form_generate_spreadsheet.png)
+![Generate spreadsheet from Google Forms](./images/google_form_generate_spreadsheet.png)
 
 ### Usage
 
 1. Translate all scores to integers between 0 and 100, and enter them into the main course gradebook.
 
 1. Once an assignment is past due and late quiz submissions are no longer accepted, click the button to `Release` scores from within the Google Form `Responses` page - this sends students an email containing their score and a link to view the answer key of the Quiz.
-   ![Release Scores](./content/images/google_form_release_scores.png)
+   ![Release Scores](./images/google_form_release_scores.png)
 
 ## Assignments
 
@@ -59,4 +59,4 @@ The main course gradebook is a Google Sheet. This spreadsheet contains a script 
 
 - If you need to send grades to just a single student, for example if a grade adjustment has been made just for that student, click the `Send one student their grades` option. Enter the row number of the student in question into the dialog that then pops up, and click the button to send.
 
-![Send grades from gradebook](./content/images/gradebook_send_grades.png)
+![Send grades from gradebook](./images/gradebook_send_grades.png)
